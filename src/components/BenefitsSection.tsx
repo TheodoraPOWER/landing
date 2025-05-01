@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import { TrendingDown, Clock, ShieldCheck, LineChart } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { useTranslation } from 'react-i18next';
@@ -22,12 +22,13 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
     roi: 0
   });
   
-  const targetValues = {
+  // Memoize the targetValues object
+  const targetValues = useMemo(() => ({
     riskReduction: 78,
     auditTime: 85,
     compliance: 99,
     roi: 310
-  };
+  }), []); // Empty dependency array means it's created only once
   
   useEffect(() => {
     if (isVisible) {
