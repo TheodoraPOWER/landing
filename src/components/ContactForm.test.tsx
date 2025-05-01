@@ -55,15 +55,21 @@ describe('ContactForm component', () => {
   const mockOnClose = vi.fn();
 
   beforeEach(() => {
-    // Reset mocks before each test
+    // Verify the mocked env var is accessible here
+    console.log('VITE_APPS_SCRIPT_URL in test beforeEach:', import.meta.env.VITE_APPS_SCRIPT_URL);
+
+    // Reset mocks explicitly within this suite's setup
     mockOnClose.mockClear();
     mockFetch.mockClear();
-    // Default mock successful fetch response
-    mockFetch.mockResolvedValue({ ok: true, json: async () => ({ success: true }) }); 
+    // Re-assert default mock behavior for fetch
+    mockFetch.mockResolvedValue({ 
+      ok: true, 
+      json: async () => ({ success: true }) 
+    }); 
   });
 
   afterEach(() => {
-    vi.restoreAllMocks();
+    vi.restoreAllMocks(); // Ensure mocks are cleaned up
   });
 
   it('should render all form fields, submit button, and close button', () => {
