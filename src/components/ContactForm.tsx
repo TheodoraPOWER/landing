@@ -86,6 +86,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
         <button 
           onClick={onClose}
           className="absolute right-4 top-4 text-secondary hover:text-primary transition-colors"
+          aria-label={t('form.closeLabel')}
         >
           <X className="h-6 w-6" />
         </button>
@@ -95,10 +96,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
           
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-secondary mb-1">
+              <label htmlFor="contact-name" className="block text-sm font-medium text-secondary mb-1">
                 {t('form.name')} *
               </label>
               <input
+                id="contact-name"
                 type="text"
                 required
                 className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent"
@@ -108,10 +110,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-secondary mb-1">
+              <label htmlFor="contact-email" className="block text-sm font-medium text-secondary mb-1">
                 {t('form.email')} *
               </label>
               <input
+                id="contact-email"
                 type="email"
                 required
                 className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent"
@@ -121,10 +124,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-secondary mb-1">
+              <label htmlFor="contact-company" className="block text-sm font-medium text-secondary mb-1">
                 {t('form.company')} *
               </label>
               <input
+                id="contact-company"
                 type="text"
                 required
                 className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent"
@@ -134,10 +138,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-secondary mb-1">
+              <label htmlFor="contact-role" className="block text-sm font-medium text-secondary mb-1">
                 {t('form.role')} *
               </label>
               <input
+                id="contact-role"
                 type="text"
                 required
                 className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent"
@@ -147,10 +152,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-secondary mb-1">
+              <label htmlFor="contact-message" className="block text-sm font-medium text-secondary mb-1">
                 {t('form.message')} *
               </label>
               <textarea
+                id="contact-message"
                 required
                 rows={4}
                 className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent"

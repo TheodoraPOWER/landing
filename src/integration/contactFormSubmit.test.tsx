@@ -1,10 +1,11 @@
 // src/integration/contactFormSubmit.test.tsx
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import i18next from 'i18next';
+import { HelmetProvider } from 'react-helmet-async';
 import App from '../App';
-import '../i18n/config'; // Initialize i18n
+import '../i18n'; // Corrected import path
 
 // Ensure resources are loaded for the test
 import enTranslation from '../i18n/locales/en.json';
@@ -30,21 +31,26 @@ describe('Contact Form Submission Integration Test', () => {
 
   it('should allow opening, filling, submitting the contact form, and closing it on success', async () => {
     const user = userEvent.setup();
-    render(<App />);
+    render(
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    );
 
     // --- 1. Open the form --- 
-    const letsChatButton = screen.getByRole('button', { name: enTranslation.nav.letsChat });
+    const nav = screen.getByRole('navigation');
+    const letsChatButton = within(nav).getByRole('button', { name: enTranslation.nav.letsChat });
     await user.click(letsChatButton);
 
     // Wait for the form to appear (check for the title)
     expect(await screen.findByText(enTranslation.form.title)).toBeVisible();
 
     // --- 2. Fill the form --- 
-    await user.type(screen.getByLabelText(enTranslation.form.name), 'Integration Tester');
-    await user.type(screen.getByLabelText(enTranslation.form.email), 'integration@test.com');
-    await user.type(screen.getByLabelText(enTranslation.form.company), 'Test Suite Inc.');
-    await user.type(screen.getByLabelText(enTranslation.form.role), 'QA');
-    await user.type(screen.getByLabelText(enTranslation.form.message), 'This is an integration test message.');
+    await user.type(screen.getByLabelText(`${enTranslation.form.name} *`), 'Integration Tester');
+    await user.type(screen.getByLabelText(`${enTranslation.form.email} *`), 'integration@test.com');
+    await user.type(screen.getByLabelText(`${enTranslation.form.company} *`), 'Test Suite Inc.');
+    await user.type(screen.getByLabelText(`${enTranslation.form.role} *`), 'QA');
+    await user.type(screen.getByLabelText(`${enTranslation.form.message} *`), 'This is an integration test message.');
 
     // --- 3. Submit the form --- 
     const submitButton = screen.getByRole('button', { name: enTranslation.form.submit });
@@ -78,17 +84,24 @@ describe('Contact Form Submission Integration Test', () => {
     // Override fetch mock for this test to simulate failure
     mockFetch.mockRejectedValueOnce(new Error('API Error'));
     const user = userEvent.setup();
-    render(<App />);
+    render(
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    );
 
     // Open the form
-    const letsChatButton = screen.getByRole('button', { name: enTranslation.nav.letsChat });
+    const nav = screen.getByRole('navigation');
+    const letsChatButton = within(nav).getByRole('button', { name: enTranslation.nav.letsChat });
     await user.click(letsChatButton);
-    await screen.findByText(enTranslation.form.title); // Wait for form
+    expect(await screen.findByText(enTranslation.form.title)).toBeVisible();
 
     // Fill mandatory fields
-    await user.type(screen.getByLabelText(enTranslation.form.name), 'Failure Tester');
-    await user.type(screen.getByLabelText(enTranslation.form.email), 'failure@test.com');
-    await user.type(screen.getByLabelText(enTranslation.form.message), 'Testing failure case.');
+    await user.type(screen.getByLabelText(`${enTranslation.form.name} *`), 'Failure Tester');
+    await user.type(screen.getByLabelText(`${enTranslation.form.email} *`), 'failure@test.com');
+    await user.type(screen.getByLabelText(`${enTranslation.form.company} *`), 'Fail Co');
+    await user.type(screen.getByLabelText(`${enTranslation.form.role} *`), 'Error Runner');
+    await user.type(screen.getByLabelText(`${enTranslation.form.message} *`), 'Testing failure case.');
 
     // Submit
     const submitButton = screen.getByRole('button', { name: enTranslation.form.submit });

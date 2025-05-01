@@ -1,10 +1,11 @@
 // src/integration/languageChange.test.tsx
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, it, expect, beforeEach } from 'vitest';
 import i18next from 'i18next'; 
+import { HelmetProvider } from 'react-helmet-async';
 import App from '../App';
-import '../i18n/config'; // Initialize i18n 
+import '../i18n'; // Corrected import path
 
 // Ensure resources are loaded for the test - might need adjustment based on your config
 import esTranslation from '../i18n/locales/es.json';
@@ -23,39 +24,35 @@ describe('Language Change Integration Test', () => {
 
   it('should change the language of the UI when a new language is selected', async () => {
     const user = userEvent.setup();
-    render(<App />); 
+    render(
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    ); 
 
-    // 1. Verify initial state (English)
-    // Check text in NavBar for example
-    expect(screen.getByRole('button', { name: enTranslation.nav.letsChat })).toBeInTheDocument();
-    // Check text in HeroSection
-    expect(screen.getByText(enTranslation.hero.headline1, { exact: false })).toBeInTheDocument();
+    // 1. Verify initial state (English) - Use translated values
+    const nav = screen.getByRole('navigation');
+    expect(within(nav).getByRole('button', { name: enTranslation.nav.letsChat })).toBeInTheDocument(); // Use value
+    expect(screen.getByText(enTranslation.hero.headline1, { exact: false })).toBeInTheDocument(); // Use value
 
-    // 2. Find and click the language selector button
-    // The button initially shows the current language code (EN)
-    const languageButton = screen.getByRole('button', { name: /language selector/i });
-    expect(screen.getByText('EN')).toBeInTheDocument(); // Verify initial state
-    await user.click(languageButton);
+    // 2. Find language selector
+    const languageSelectors = within(nav).getAllByRole('combobox'); 
+    const languageSelector = languageSelectors[0]; 
+    expect(languageSelector).toHaveValue('en');
 
-    // 3. Find and click the Spanish option in the dropdown
-    // Use the full language name as defined in the resources
-    const spanishOption = await screen.findByText(enTranslation.language.es); // 'Español'
-    await user.click(spanishOption);
+    // 3. Change language 
+    await user.selectOptions(languageSelector, 'es');
 
-    // 4. Wait for the language change and verify UI updates
+    // 4. Wait and verify UI updates - Use translated values
     await waitFor(() => {
-        // Check that the button text updated
-        expect(screen.getByText('ES')).toBeInTheDocument();
-        // Verify text changed in NavBar
-        expect(screen.getByRole('button', { name: esTranslation.nav.letsChat })).toBeInTheDocument();
-         // Verify text changed in HeroSection
-        expect(screen.getByText(esTranslation.hero.headline1, { exact: false })).toBeInTheDocument();
-        // Verify the English text is gone
-        expect(screen.queryByRole('button', { name: enTranslation.nav.letsChat })).not.toBeInTheDocument();
+        expect(languageSelector).toHaveValue('es');
+        expect(within(nav).getByRole('button', { name: esTranslation.nav.letsChat })).toBeInTheDocument(); // Use Spanish value
+        expect(screen.getByText(esTranslation.hero.headline1, { exact: false })).toBeInTheDocument(); // Use Spanish value
+        // Verify the English text is gone by value
+        expect(within(nav).queryByRole('button', { name: enTranslation.nav.letsChat })).not.toBeInTheDocument();
         expect(screen.queryByText(enTranslation.hero.headline1, { exact: false })).not.toBeInTheDocument();
     });
 
-    // Optional: Verify i18next language state changed
     expect(i18next.language).toBe('es');
   });
 }); 
