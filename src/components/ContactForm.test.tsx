@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event' // Use userEvent for more realistic interactions
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import i18next from 'i18next';

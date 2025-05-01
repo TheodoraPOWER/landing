@@ -70,7 +70,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
       
       return () => clearInterval(timer);
     }
-  }, [isVisible]);
+  }, [isVisible, targetValues]);
 
   return (
     <section 
