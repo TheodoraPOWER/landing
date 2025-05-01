@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all ethical web crawlers access to the entire site
+User-agent: *
+Allow: /
+
+# Disallow access to specific paths if needed (example)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+
+# Point crawlers to the sitemap
+Sitemap: https://TheodoraPOWER.github.io/landing/sitemap.xml 

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 46 61 73; /* Deep Charcoal Blue #2E3D49 */
+    --color-secondary: 90 106 120; /* Medium Gray #5A6A78 */
+    --color-accent: 0 169 157; /* Insight Teal #00A99D */
+    --color-accent-dark: 0 140 129; /* Dark Teal #008C81 */
+    --color-steel: 108 122 137; /* Steel Gray #6C7A89 */
+    --color-bg-secondary: 244 246 248; /* Light Steel Gray #F4F6F8 */
+    --color-border: 209 217 224; /* Pale Gray #D1D9E0 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-lg leading-relaxed text-primary bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold leading-tight;
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h3 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply mb-6;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-medium transition-all duration-300 rounded-lg;
+  }
+
+  .btn-primary {
+    @apply text-white bg-accent hover:bg-accent-dark;
+  }
+
+  .btn-secondary {
+    @apply text-primary bg-white border border-border hover:bg-bg-secondary;
+  }
+
+  .container-custom {
+    @apply container px-4 mx-auto max-w-7xl;
+  }
+
+  .section {
+    @apply py-20 md:py-32;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

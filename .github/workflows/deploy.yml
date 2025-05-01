@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+# Trigger the workflow on push events to the main branch
+on:
+  push:
+    branches: [ "main" ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: write # Needed to push the built site to the gh-pages branch
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Checks out your repository under $GITHUB_WORKSPACE
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Specify the Node.js version you are using
+          cache: 'npm' # Cache npm dependencies
+
+      - name: Install dependencies
+        run: npm ci # Use ci for cleaner installs in CI environments
+
+      - name: Run Linter
+        run: npm run lint
+
+      - name: Run Tests
+        run: npm run test
+
+      - name: Build application
+        run: npm run build # Runs vite build
+
+      - name: Deploy to GitHub Pages
+        # This step uses the deploy script defined in package.json (`gh-pages -d dist`)
+        # It automatically uses the GITHUB_TOKEN provided by the runner to push
+        # to the gh-pages branch.
+        run: npm run deploy
+        env:
+          # If gh-pages needs user info explicitly (usually not needed in Actions):
+          # GITHUB_USER: github-actions[bot] 
+          # Or configure gh-pages in package.json or via options if necessary
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Provided automatically by GitHub Actions 
