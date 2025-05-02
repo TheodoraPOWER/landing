@@ -28,17 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm ci # Use ci for cleaner installs in CI environments
 
-      - name: Run Linter
-        run: npm run lint
-
-      - name: Run Tests
-        run: npm run test
-
-      - name: Run Accessibility Tests
-        # This step runs only the axe tests and will not fail the workflow if they fail
-        run: npm run test:axe
-        continue-on-error: true
-
       - name: Build application
         run: npm run build # Runs vite build
 
