@@ -1,5 +1,5 @@
 // src/components/LanguageSelector.test.tsx
-import { render, screen, waitFor } from '@testing-library/react'; // Removed waitFor as it might not be needed now
+import { render, screen } from '@testing-library/react'; // Removed waitFor
 import userEvent from '@testing-library/user-event';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 // import i18next from 'i18next'; // Don't import i18next directly if relying on global config

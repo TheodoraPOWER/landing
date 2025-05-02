@@ -2,7 +2,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import { BrowserRouter } from 'react-router-dom'; // Needed if NavBar uses Link or routing context
-import { useTranslation } from 'react-i18next'; // Import useTranslation
 import { NavBar } from './NavBar';
 import '../i18n'; // Corrected import path
 
@@ -13,8 +12,7 @@ vi.mock('./LanguageSelector', () => ({
 
 // Helper component to provide translation context
 const TestWrapper = ({ children }: { children: React.ReactNode }) => {
-  const { t } = useTranslation();
-  // Pass t or necessary translations if needed, or just wrap
+  // const { t } = useTranslation(); // Removed unused t
   return <>{children}</>; 
 };
 

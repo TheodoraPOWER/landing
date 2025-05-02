@@ -6,7 +6,6 @@ declare module 'jest-axe' {
     toHaveNoViolations(): R;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-explicit-any
   export interface AxeMatchers extends JestAxeMatchers<any> {}
 
   export const axe: (html: string | Element) => Promise<Result[]>;
