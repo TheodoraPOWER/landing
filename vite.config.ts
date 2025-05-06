@@ -33,7 +33,7 @@ export default defineConfig(({ command, mode }) => {
         // This is implicitly handled by `command === 'build'` check above
       }) : null,
     ].filter(Boolean), // Remove null plugin if Sentry config is missing
-    base: '/', // Base path for GitHub Pages
+    base: '/landing/', // Base path for GitHub Pages
     optimizeDeps: {
       exclude: ['lucide-react'],
     },
