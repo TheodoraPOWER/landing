@@ -36,6 +36,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Update remote URL with token
+        run: git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+
       - name: Deploy to GitHub Pages
         # This step uses the deploy script defined in package.json (`gh-pages -d dist`)
         # It automatically uses the GITHUB_TOKEN provided by the runner to push
