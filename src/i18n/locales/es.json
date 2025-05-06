@@ -229,8 +229,8 @@
     "contact": {
       "title": "Contacto",
       "email": "info@theodora.ai",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Financial District\\nNew York, NY 10004"
+      "phone": "+1 (954) 641-2290",
+      "address": "66 West Flagler St. Ste. 901 Miami, Fl 33130"
     },
     "copyright": "© {{year}} Theodora. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
@@ -344,7 +344,7 @@
       "intro": "If you have questions or comments about this Privacy Policy, please contact us at:",
       "address": {
         "line1": "Theodora",
-        "line2": "{contactAddress}", 
+        "line2": "{contactAddress}",
         "email": "Email: {contactEmail}",
         "phone": "Phone: {contactPhone}"
       }
@@ -432,7 +432,7 @@
       "intro": "In order to resolve a complaint regarding the Service or to receive further information regarding use of the Service, please contact us at:",
       "address": {
         "line1": "Theodora",
-        "email": "{contactEmail}" 
+        "email": "{contactEmail}"
       }
     }
   },
