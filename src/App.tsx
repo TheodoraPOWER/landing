@@ -16,7 +16,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import CookiesPolicy from './pages/CookiesPolicy';
 
-const SITE_URL = 'https://TheodoraPOWER.github.io/landing'; // Define base URL once
+const SITE_URL = 'https://theodora.live'; // Updated for custom domain
 const OG_IMAGE_URL = `${SITE_URL}/logo-og.png`; // Placeholder - create this image in /public
 
 const PageLayout: React.FC<{ children: React.ReactNode; onLetsChatClick: () => void }> = ({ children, onLetsChatClick }) => (
@@ -74,7 +74,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="/landing/">
+    <BrowserRouter basename="/">
       <Routes>
         <Route 
           path="/" 

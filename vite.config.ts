@@ -14,7 +14,7 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       react(),
       Sitemap({ 
-        hostname: 'https://TheodoraPOWER.github.io/landing/',
+        hostname: 'https://theodora.live/',
       }),
       // Sentry plugin - only run during build and if config is available
       (env.SENTRY_ORG && env.SENTRY_PROJECT && env.SENTRY_AUTH_TOKEN && command === 'build') ? sentryVitePlugin({
@@ -33,7 +33,7 @@ export default defineConfig(({ command, mode }) => {
         // This is implicitly handled by `command === 'build'` check above
       }) : null,
     ].filter(Boolean), // Remove null plugin if Sentry config is missing
-    base: '/landing/', // Base path for GitHub Pages
+    base: '/',
     optimizeDeps: {
       exclude: ['lucide-react'],
     },
