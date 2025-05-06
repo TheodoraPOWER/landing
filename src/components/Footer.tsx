@@ -2,6 +2,7 @@ import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import footerLogoSrc from '../assets/logo.avif';
 
 export const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -12,8 +13,8 @@ export const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/logo.avif" 
-                alt="Theodora Logo" 
+                src={footerLogoSrc}
+                alt={t('footer.logoAlt', { defaultValue: 'Theodora Logo' })}
                 className="h-8 w-8"
               />
               <span className="text-2xl font-bold">Theodora</span>

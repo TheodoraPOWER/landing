@@ -39,7 +39,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onLetsChatClick }) => {
             <img 
               src={logoSrc}
               alt={t('nav.logoAlt', { defaultValue: 'Theodora Logo' })}
-              className="h-20 w-auto"
+              className="h-24 w-auto"
             />
           </a>
 
