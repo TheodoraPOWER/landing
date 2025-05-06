@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from './LanguageSelector';
 import { Menu, X } from 'lucide-react';
+import logoSrc from '../assets/theodora-logo-h.avif';
 
 interface NavBarProps {
   onLetsChatClick: () => void;
@@ -36,8 +37,8 @@ export const NavBar: React.FC<NavBarProps> = ({ onLetsChatClick }) => {
           {/* Logo */}
           <a href="#" className="flex-shrink-0">
             <img 
-              src="/theodora-logo-h.avif"
-              alt="Theodora Logo" 
+              src={logoSrc}
+              alt={t('nav.logoAlt', { defaultValue: 'Theodora Logo' })}
               className="h-20 w-auto"
             />
           </a>
@@ -59,12 +60,12 @@ export const NavBar: React.FC<NavBarProps> = ({ onLetsChatClick }) => {
             >
               {t('nav.letsChat')}
             </button>
-            <LanguageSelector isScrolled={isScrolled || isMobileMenuOpen} />
+            <LanguageSelector />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
-             <LanguageSelector isScrolled={isScrolled || isMobileMenuOpen} />
+             <LanguageSelector />
              <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className={`ml-4 p-2 rounded ${isScrolled || isMobileMenuOpen ? 'text-primary' : 'text-white'}`}
