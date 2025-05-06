@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TheodoraPOWER.github.io/landing/sitemap.xml
+Sitemap: https://theodora.live/sitemap.xml
