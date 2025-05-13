@@ -14,8 +14,8 @@
   },
   "hero": {
     "headline1": "Stop Reacting.",
-    "headline2": "Start Preventing Financial Risk.",
-    "subheadline": "Real-time operational risk intelligence and automated compliance assurance for financial institutions powered by AI and Observability.",
+    "headline2": "Start Preventing Operational Risk.",
+    "subheadline": "Real-time operational risk management platform and automated intelligence that positively impacts financial firms and organizations powered by Observability and AI.",
     "cta": {
       "chat": "Let's Chat",
       "learnMore": "Learn More"
@@ -30,26 +30,26 @@
     },
     "feature3": {
       "title": "Automated Compliance",
-      "description": "OSCAL-native compliance assurance with automatic evidence generation and reporting."
+      "description": "Code-native compliance assurance with automatic evidence generation and reporting."
     }
   },
   "problem": {
-    "headline1": "Financial Institutions Face",
+    "headline1": "Financial Firms & Organizations Face",
     "headline2": "Costly Challenges",
     "subheadline": "In today's complex financial landscape, operational risks and compliance burdens continue to grow, leading to significant financial and reputational damage.",
     "stat1": {
       "title": "Massive Financial Losses",
-      "description": "Financial institutions suffer billions in direct losses from operational failures, errors, and fraud that go undetected until it's too late.",
+      "description": "Financial firms suffer billions in direct losses from lack of operational visibility due to failures, errors, and fraud that go undetected until it's too late.",
       "value": "$70B",
       "valueSuffix": "+",
-      "label": "Annual global losses from operational risk events"
+      "label": "Annual global losses from events not managed for operational risk"
     },
     "stat2": {
-      "title": "Hefty Regulatory Fines",
-      "description": "Non-compliance with regulations like AML, KYC, SOX, and ISO 27001 results in severe penalties and reputational damage.",
-      "value": "$56B",
+      "title": "Cybercrime Costs in Digital Payments",
+      "description": "A significant portion is related to financial fraud and data theft impacting digital payments.",
+      "value": "$9.5T",
       "valueSuffix": "+",
-      "label": "Compliance-related fines since 2008"
+      "label": "Estimated global costs of cybercrime damages in 2024."
     },
     "stat3": {
       "title": "Operational Inefficiency",
@@ -72,15 +72,19 @@
     "subheadline": "The unified platform for real-time operational risk intelligence and automated compliance assurance.",
     "feature1": {
       "title": "Proactive Risk Prevention",
-      "description": "Shift from reactive firefighting to proactive risk prevention with real-time intelligence and predictive analytics."
+      "description": "Shift from reactive firefighting to proactive risk prevention with real-time observability and predictive AI."
     },
     "feature2": {
       "title": "Complete Visibility",
       "description": "Gain end-to-end visibility across your entire operational landscape with our unified observability engine."
     },
     "feature3": {
-      "title": "Automated Compliance",
-      "description": "Dramatically reduce audit effort with automated OSCAL evidence generation and continuous compliance assurance."
+      "title": "Automated Intelligence",
+      "description": "Dramatically reduce audit effort with automated evidence generation and continuous risk mitigation."
+    },
+    "feature4": {
+      "title": "AI-Powered Risk Prevention",
+      "description": "Leverage machine learning for advanced anomaly detection and predictive pattern recognition to identify risks before they impact your business."
     },
     "cta": {
       "chat": "Let's Chat"
@@ -116,7 +120,7 @@
     "pillar3": {
       "title": "Automated Compliance Assurance",
       "description": "Map real-time operational events to specific compliance controls and automatically generate evidence, drastically reducing audit effort.",
-      "feature1": "OSCAL-native control mapping",
+      "feature1": "Code-native control mapping",
       "feature2": "Automated evidence generation",
       "feature3": "Continuous control monitoring",
       "feature4": "Audit-ready reporting"
@@ -146,19 +150,19 @@
       "description": "First-year return on investment for our customers"
     },
     "realResults": {
-      "title": "Real Results for Financial Institutions",
-      "description": "Theodora has helped leading financial institutions around the world achieve significant improvements in operational resilience and compliance efficiency.",
+      "title": "Real Results for Financial Institutions & Organizations",
+      "description": "Theodora helps leading financial institutions around the world achieve significant improvements in operational resilience and compliance efficiency.",
       "case1": {
         "title": "Reduced Operational Losses",
-        "description": "A global bank reduced operational losses by 78% within the first year by detecting and preventing issues before they impacted customers."
+        "description": "A global bank can reduce operational losses by  up to 78% within the first year by detecting and preventing issues before they impacted customers."
       },
       "case2": {
         "title": "Slashed Audit Costs",
-        "description": "An insurance firm reduced compliance costs by 63% through automated evidence generation and continuous compliance monitoring."
+        "description": "An insurance firm can reduce compliance costs by 63% through automated evidence generation and continuous compliance monitoring."
       },
       "case3": {
-        "title": "Improved Decision Making",
-        "description": "A wealth management company improved operational decisions with real-time risk intelligence, preventing $4.2M in potential losses."
+        "title": "Improved Strategic Decision Making",
+        "description": "A wealth management company may improve its operational decisions with real-time risk intelligence, preventing Millions of dollars in potential losses."
       }
     },
     "cta": {
@@ -228,7 +232,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "info@theodora.ai",
+      "email": "info@theodora.live",
       "phone": "+1 (954) 641-2290",
       "address": "66 West Flagler St. Ste. 901 Miami, Fl 33130"
     },
