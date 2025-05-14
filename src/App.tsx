@@ -28,8 +28,8 @@ const PageLayout: React.FC<{ children: React.ReactNode; onLetsChatClick: () => v
 );
 
 const LandingPageLayout: React.FC<{ onOpenContactForm: () => void }> = ({ onOpenContactForm }) => {
-  const pageTitle = 'Project Bolt - Tu Solución Innovadora';
-  const pageDescription = 'Descubre cómo Project Bolt puede transformar tu negocio con nuestra solución innovadora y personalizada.';
+  const pageTitle = 'Theodora | Real-Time Risk Intelligence & Automated Compliance';
+  const pageDescription = 'Theodora provides real-time operational risk intelligence and automated compliance assurance to financial firms and organizations through AI and Observability.';
   const pageUrl = `${SITE_URL}/`;
 
   return (
@@ -89,12 +89,12 @@ function App() {
           element={(
             <PageLayout onLetsChatClick={handleOpenContactForm}>
               <Helmet>
-                <title>Política de Privacidad - Project Bolt</title>
-                <meta name="description" content="Consulta nuestra política de privacidad para entender cómo manejamos tus datos en Project Bolt." />
+                <title>Política de Privacidad - Theodora | Real-Time Risk Intelligence & Automated Compliance</title>
+                <meta name="description" content="Consulta nuestra política de privacidad para entender cómo manejamos tus datos en Theodora | Real-Time Risk Intelligence & Automated Compliance." />
                 {/* Add minimal OG/Twitter tags for legal pages */}
-                <meta property="og:title" content="Política de Privacidad - Project Bolt" />
+                <meta property="og:title" content="Política de Privacidad - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
                 <meta property="og:url" content={`${SITE_URL}/privacy-policy/`} />
-                <meta name="twitter:title" content="Política de Privacidad - Project Bolt" />
+                <meta name="twitter:title" content="Política de Privacidad - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
               </Helmet>
               <PrivacyPolicy />
             </PageLayout>
@@ -105,12 +105,12 @@ function App() {
           element={(
             <PageLayout onLetsChatClick={handleOpenContactForm}>
                <Helmet>
-                <title>Términos de Servicio - Project Bolt</title>
-                <meta name="description" content="Lee los términos y condiciones para el uso de los servicios de Project Bolt." />
+                <title>Términos de Servicio - Theodora | Real-Time Risk Intelligence & Automated Compliance</title>
+                <meta name="description" content="Lee los términos y condiciones para el uso de los servicios de Theodora | Real-Time Risk Intelligence & Automated Compliance." />
                  {/* Add minimal OG/Twitter tags for legal pages */}
-                <meta property="og:title" content="Términos de Servicio - Project Bolt" />
+                <meta property="og:title" content="Términos de Servicio - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
                 <meta property="og:url" content={`${SITE_URL}/terms-of-service/`} />
-                <meta name="twitter:title" content="Términos de Servicio - Project Bolt" />
+                <meta name="twitter:title" content="Términos de Servicio - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
               </Helmet>
               <TermsOfService />
             </PageLayout>
@@ -121,12 +121,12 @@ function App() {
           element={(
             <PageLayout onLetsChatClick={handleOpenContactForm}>
               <Helmet>
-                <title>Política de Cookies - Project Bolt</title>
-                <meta name="description" content="Información sobre el uso de cookies en el sitio web de Project Bolt." />
+                <title>Política de Cookies - Theodora | Real-Time Risk Intelligence & Automated Compliance</title>
+                <meta name="description" content="Información sobre el uso de cookies en el sitio web de Theodora | Real-Time Risk Intelligence & Automated Compliance." />
                  {/* Add minimal OG/Twitter tags for legal pages */}
-                <meta property="og:title" content="Política de Cookies - Project Bolt" />
+                <meta property="og:title" content="Política de Cookies - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
                 <meta property="og:url" content={`${SITE_URL}/cookies-policy/`} />
-                <meta name="twitter:title" content="Política de Cookies - Project Bolt" />
+                <meta name="twitter:title" content="Política de Cookies - Theodora | Real-Time Risk Intelligence & Automated Compliance" />
               </Helmet>
               <CookiesPolicy />
             </PageLayout>
