@@ -4,181 +4,243 @@
     "solution": "Solución",
     "howItWorks": "Cómo Funciona",
     "benefits": "Beneficios",
-    "letsChat": "Conversemos"
+    "letsChat": "Hablemos"
   },
   "language": {
-    "en": "Inglés",
+    "en": "English",
     "es": "Español",
     "it": "Italiano",
-    "pt": "Portugués"
+    "pt": "Português"
   },
   "hero": {
     "headline1": "Deja de Reaccionar.",
     "headline2": "Comienza a Prevenir el Riesgo Operacional.",
-    "subheadline": "Plataforma de gestión de riesgos operativos en tiempo real e inteligencia automatizada que impacta positivamente a empresas y organizaciones financieras, impulsada por Observabilidad e IA.",
+    "subheadline": "Plataforma de resiliencia operacional en tiempo real con inteligencia automatizada que ayuda a las entidades financieras a gestionar proactivamente los riesgos de TI y operacionales.",
     "cta": {
-      "chat": "Conversemos",
-      "learnMore": "Saber Más"
+      "chat": "Hablemos",
+      "learnMore": "Conoce Más"
     },
     "feature1": {
       "title": "Observabilidad Unificada",
-      "description": "Visibilidad completa en tiempo real de todo tu panorama informático y operativo."
+      "description": "Visibilidad completa en toda tu infraestructura de TI y panorama operacional en tiempo real para una mayor resiliencia."
     },
     "feature2": {
       "title": "Inteligencia Impulsada por IA",
-      "description": "Análisis predictivo y detección de anomalías para identificar riesgos antes de que impacten tu negocio."
+      "description": "Análisis predictivo y detección de anomalías para identificar riesgos de TI y vulnerabilidades antes de que impacten tus operaciones comerciales."
     },
     "feature3": {
+      "title": "Resolución Colaborativa",
+      "description": "Elimina silos y permite que equipos de TI, seguridad, cumplimiento y negocio trabajen juntos en una sola plataforma para una resolución de riesgos más rápida y efectiva."
+    },
+    "feature4": {
       "title": "Cumplimiento Automatizado",
-      "description": "Garantía de cumplimiento nativo en código con generación automática de evidencia e informes."
+      "description": "Aseguramiento de cumplimiento integrado con generación automática de evidencia, documentación de gestión de riesgos de TI e informes regulatorios."
     }
   },
   "problem": {
-    "headline1": "Las Empresas y Organizaciones Financieras Enfrentan",
-    "headline2": "Desafíos Costosos",
-    "subheadline": "En el complejo panorama financiero actual, los riesgos operativos y las cargas de cumplimiento continúan creciendo, lo que conduce a importantes daños financieros y de reputación.",
+    "headline1": "Las Entidades Financieras Enfrentan",
+    "headline2": "Desafíos Crecientes de Resiliencia Digital",
+    "subheadline": "Las entidades financieras deben demostrar una gestión robusta de riesgos de TI, capacidades de respuesta a incidentes y resiliencia operacional para cumplir con requisitos regulatorios en evolución y proteger su negocio.",
     "stat1": {
-      "title": "Pérdidas Financieras Masivas",
-      "description": "Las empresas financieras sufren miles de millones en pérdidas directas por falta de visibilidad operativa debido a fallas, errores y fraudes que no se detectan hasta que es demasiado tarde.",
-      "value": "$70 MM",
-      "valueSuffix": "+",
-      "label": "Pérdidas globales anuales por eventos no gestionados por riesgo operacional"
+      "title": "Incidentes Críticos de TI",
+      "description": "Las entidades financieras experimentan interrupciones graves por fallos de TI, amenazas cibernéticas y dependencias de terceros que comprometen la prestación de servicios.",
+      "value": "10",
+      "valueSuffix": "%",
+      "label": "Penalizaciones máximas del volumen de negocios global por incumplimiento regulatorio"
     },
     "stat2": {
-      "title": "Costos del Cibercrimen en Pagos Digitales",
-      "description": "Una porción significativa está relacionada con el fraude financiero y el robo de datos que impactan los pagos digitales.",
-      "value": "$9,5 B",
-      "valueSuffix": "+",
-      "label": "Costos globales estimados de los daños por cibercrimen en 2024."
+      "title": "Dependencias de TI con Terceros",
+      "description": "La supervisión integral de proveedores de servicios de TI de terceros crea obligaciones de monitoreo complejas.",
+      "value": "85",
+      "valueSuffix": "%",
+      "label": "De las entidades financieras dependen de servicios críticos de TI de terceros"
     },
     "stat3": {
-      "title": "Ineficiencia Operativa",
-      "description": "Las herramientas aisladas y los procesos manuales crean ineficiencias operativas, con equipos que dedican un tiempo excesivo a reaccionar a incidentes y recopilar evidencia de auditoría.",
-      "value": "5.000",
+      "title": "Pruebas Manuales de Resiliencia",
+      "description": "Los enfoques tradicionales para las pruebas de resiliencia de TI consumen recursos masivos mientras no logran cumplir con los requisitos de monitoreo continuo.",
+      "value": "8,000",
       "valueSuffix": "+",
-      "label": "Horas-persona dedicadas anualmente a tareas manuales de cumplimiento"
+      "label": "Horas-persona gastadas anualmente en evaluaciones y pruebas de riesgos de TI"
     },
     "stat4": {
-      "title": "Visibilidad Limitada",
-      "description": "Las instituciones financieras luchan por ver los riesgos emergentes en sistemas complejos e interconectados, lo que lleva a decisiones basadas en información desactualizada.",
-      "value": "67",
+      "title": "Gestión Fragmentada de Riesgos de TI",
+      "description": "Las instituciones financieras luchan con datos de riesgo de TI aislados y equipos desconectados, haciendo casi imposible mantener un marco integrado de gestión de riesgos o colaborar efectivamente en soluciones.",
+      "value": "73",
       "valueSuffix": "%",
-      "label": "De los incidentes ocurren debido a la falta de visibilidad oportuna del riesgo"
+      "label": "De los incidentes de TI escalan debido a la detección tardía y la mala coordinación entre equipos"
     }
   },
   "solution": {
     "headline1": "Presentamos",
     "headline2": "Theodora",
-    "subheadline": "La plataforma unificada para inteligencia de riesgo operacional en tiempo real y garantía de cumplimiento automatizado.",
+    "subheadline": "La plataforma unificada para resiliencia operacional, inteligencia de riesgos de TI en tiempo real y aseguramiento regulatorio automatizado.",
     "feature1": {
-      "title": "Prevención Proactiva de Riesgos",
-      "description": "Pasa de la lucha reactiva contra incidentes a la prevención proactiva de riesgos con observabilidad en tiempo real e IA predictiva."
+      "title": "Prevención Proactiva de Riesgos de TI",
+      "description": "Cambia de la respuesta reactiva a incidentes a la gestión proactiva de riesgos de TI con observabilidad en tiempo real y detección de amenazas impulsada por IA."
     },
     "feature2": {
-      "title": "Visibilidad Completa",
-      "description": "Obtén visibilidad de extremo a extremo en todo tu panorama operativo con nuestro motor de observabilidad unificada."
+      "title": "Arquitectura Lista para Empresas",
+      "description": "Diseñada específicamente para abordar la gestión integral de riesgos de TI, informes de incidentes, pruebas de resiliencia, monitoreo de terceros y colaboración de equipos multifuncionales."
     },
     "feature3": {
-      "title": "Inteligencia Automatizada",
-      "description": "Reduce drásticamente el esfuerzo de auditoría con la generación automatizada de evidencia y la mitigación continua de riesgos."
+      "title": "Centro de Colaboración Unificado",
+      "description": "Reúne operaciones de TI, equipos de seguridad, oficiales de cumplimiento y partes interesadas del negocio en una plataforma para resolver problemas más rápido con contexto y visibilidad compartidos."
     },
     "feature4": {
-      "title": "Prevención de Riesgos Impulsada por IA",
-      "description": "Aprovecha el aprendizaje automático para la detección avanzada de anomalías y el reconocimiento predictivo de patrones para identificar riesgos antes de que impacten tu negocio."
+      "title": "Documentación de Cumplimiento Automatizada",
+      "description": "Reduce drásticamente la carga regulatoria con generación automática de evidencia, monitoreo continuo de controles e informes listos para auditoría."
+    },
+    "feature5": {
+      "title": "Resiliencia Impulsada por IA",
+      "description": "Aprovecha el aprendizaje automático para detección avanzada de anomalías, reconocimiento de patrones y análisis predictivo para identificar vulnerabilidades de TI antes de que causen interrupciones."
     },
     "cta": {
-      "chat": "Conversemos"
+      "chat": "Hablemos"
     },
     "mockup": {
-      "tab1": "Panel de Control",
-      "tab2": "Riesgos",
+      "tab1": "Panel",
+      "tab2": "Puntuación de Riesgos",
       "tab3": "Cumplimiento",
-      "footer1": "Panel de control en tiempo real",
-      "footer2": "Demo interactiva"
+      "footer1": "Vista Previa del Panel",
+      "footer2": "Puntuación de Riesgos, Estado de Cumplimiento, Incidentes de TI"
     }
   },
   "pillars": {
-    "headline1": "Cómo",
-    "headline2": "Funciona Theodora",
-    "subheadline": "Nuestra plataforma se basa en tres pilares poderosos que trabajan juntos para proporcionar inteligencia de riesgos integral y garantía de cumplimiento.",
+    "headline1": "Cómo Theodora",
+    "headline2": "Entrega Resiliencia Operacional",
+    "subheadline": "Nuestra plataforma proporciona tres capacidades integradas que entregan gestión integral de riesgos de TI y resiliencia operacional, con herramientas de colaboración integradas que unen a equipos multifuncionales en torno a objetivos compartidos.",
     "pillar1": {
-      "title": "Motor de Observabilidad Unificada",
-      "description": "Ingiere y correlaciona registros, métricas y trazas en todo tu panorama de TI para una visibilidad completa de extremo a extremo.",
-      "feature1": "Recopilación y correlación integral de datos",
-      "feature2": "Rastreo de procesos de extremo a extremo",
-      "feature3": "Visibilidad operativa en tiempo real",
-      "feature4": "Diagnóstico de causa raíz"
+      "title": "Motor de Observabilidad Unificado",
+      "description": "Gestión Completa de Riesgos de TI - Ingiere y correlaciona logs, métricas y trazas en toda tu infraestructura de TI para una visibilidad completa.",
+      "feature1": "Inventario y clasificación integral de activos de TI",
+      "feature2": "Rastreo de transacciones y procesos de extremo a extremo",
+      "feature3": "Monitoreo de infraestructura en tiempo real",
+      "feature4": "Análisis de causa raíz y diagnósticos",
+      "feature5": "Monitoreo de proveedores de servicios de TI de terceros",
+      "feature6": "Paneles compartidos para visibilidad entre equipos"
     },
     "pillar2": {
       "title": "Inteligencia de Riesgos Impulsada por IA",
-      "description": "Aprovecha el aprendizaje automático para la detección avanzada de anomalías y el reconocimiento predictivo de patrones para identificar riesgos antes de que impacten tu negocio.",
-      "feature1": "Detección avanzada de anomalías",
-      "feature2": "Patrones de riesgo predictivos",
-      "feature3": "Alertas inteligentes",
-      "feature4": "Cuadro de mando de riesgos y visualización"
+      "description": "Gestión Inteligente de Incidentes - Aprovecha el aprendizaje automático para detección avanzada de amenazas y análisis predictivo para identificar y prevenir incidentes relacionados con TI.",
+      "feature1": "Detección automática de anomalías y alertas",
+      "feature2": "Análisis predictivo de patrones de riesgo",
+      "feature3": "Clasificación y priorización de incidentes mayores",
+      "feature4": "Puntuación y visualización de riesgos en tiempo real",
+      "feature5": "Identificación proactiva de vulnerabilidades",
+      "feature6": "Flujos de trabajo colaborativos de respuesta a incidentes"
     },
     "pillar3": {
-      "title": "Garantía de Cumplimiento Automatizado",
-      "description": "Mapea eventos operativos en tiempo real con controles de cumplimiento específicos y genera evidencia automáticamente, reduciendo drásticamente el esfuerzo de auditoría.",
-      "feature1": "Mapeo de controles nativo en código",
-      "feature2": "Generación automatizada de evidencia",
-      "feature3": "Monitoreo continuo de controles",
-      "feature4": "Informes listos para auditoría"
+      "title": "Aseguramiento de Cumplimiento Automatizado",
+      "description": "Pruebas e Informes Continuos de Resiliencia - Mapea eventos operacionales a requisitos regulatorios y genera automáticamente evidencia y reportes integrales de cumplimiento.",
+      "feature1": "Mapeo integrado de marco de control regulatorio",
+      "feature2": "Recopilación automática de evidencia de cumplimiento",
+      "feature3": "Documentación continua de pruebas de resiliencia",
+      "feature4": "Plantillas preconfiguradas de informes regulatorios",
+      "feature5": "Flujos de trabajo de informes de incidentes mayores",
+      "feature6": "Documentación de cumplimiento lista para auditoría"
     },
     "cta": {
-      "chat": "Conversemos"
+      "chat": "Hablemos"
     }
   },
   "benefits": {
-    "headline1": "Resultados",
-    "headline2": "Medibles",
-    "subheadline": "Theodora ofrece resultados comerciales tangibles para las instituciones financieras, con un ROI comprobado y reducción de riesgos.",
+    "headline1": "Resultados Medibles de",
+    "headline2": "Resiliencia Operacional",
+    "subheadline": "Theodora entrega resultados tangibles para entidades financieras, con mejoras comprobadas en resiliencia y eficiencia de cumplimiento.",
     "stat1": {
-      "title": "Reducción de Riesgos",
-      "description": "Reduce las pérdidas operativas y previene incidentes costosos"
+      "title": "Detección Más Rápida de Incidentes",
+      "description": "Identifica y clasifica incidentes mayores de TI en tiempo real"
     },
     "stat2": {
-      "title": "Tiempo de Auditoría Ahorrado",
-      "description": "Reduce drásticamente el tiempo dedicado a la recopilación de evidencia de cumplimiento"
+      "title": "Automatización del Cumplimiento",
+      "description": "Reduce el esfuerzo manual para documentación e informes"
     },
     "stat3": {
-      "title": "Tasa de Cumplimiento",
-      "description": "Mantén el cumplimiento continuo con las regulaciones"
+      "title": "Resiliencia de Infraestructura",
+      "description": "Mantén la continuidad operacional con monitoreo proactivo"
     },
     "stat4": {
-      "title": "ROI Promedio",
-      "description": "Retorno de la inversión en el primer año para nuestros clientes"
+      "title": "Reducción de Riesgos",
+      "description": "Previene incidentes relacionados con TI mediante inteligencia predictiva"
+    },
+    "stat5": {
+      "title": "Resolución Más Rápida",
+      "description": "Resuelve incidentes más rápido con colaboración multifuncional"
     },
     "realResults": {
-      "title": "Resultados Reales para Instituciones y Organizaciones Financieras",
-      "description": "Theodora ayuda a las principales instituciones financieras de todo el mundo a lograr mejoras significativas en la resiliencia operativa y la eficiencia del cumplimiento.",
+      "title": "Resultados Reales para Entidades Financieras",
+      "description": "Theodora ayuda a las instituciones financieras a lograr el cumplimiento regulatorio mientras fortalece la resiliencia operacional.",
       "case1": {
-        "title": "Reducción de Pérdidas Operativas",
-        "description": "Un banco global puede reducir las pérdidas operativas hasta en un 78% durante el primer año al detectar y prevenir problemas antes de que impacten a los clientes."
+        "title": "Preparación Acelerada para el Cumplimiento",
+        "description": "Un banco logró el cumplimiento regulatorio completo antes de los plazos implementando gestión automatizada de riesgos de TI, monitoreo continuo y supervisión integrada de terceros, reduciendo los costos de preparación de cumplimiento en un 68%."
       },
       "case2": {
-        "title": "Costos de Auditoría Drásticamente Reducidos",
-        "description": "Una compañía de seguros puede reducir los costos de cumplimiento en un 63% mediante la generación automatizada de evidencia y el monitoreo continuo del cumplimiento."
+        "title": "Informes Optimizados de Incidentes",
+        "description": "Un proveedor de servicios de pago automatizó la clasificación de incidentes mayores y los flujos de trabajo de informes, reduciendo el tiempo de informes regulatorios de 4 horas a 15 minutos mientras aseguraba un cumplimiento consistente. Al permitir la colaboración en tiempo real entre sus equipos de operaciones, seguridad y cumplimiento en una plataforma unificada, redujeron el tiempo medio de resolución en un 55%."
       },
       "case3": {
-        "title": "Mejora en la Toma de Decisiones Estratégicas",
-        "description": "Una empresa de gestión de patrimonios puede mejorar sus decisiones operativas con inteligencia de riesgos en tiempo real, previniendo millones de dólares en pérdidas potenciales."
+        "title": "Pruebas de Resiliencia Mejoradas",
+        "description": "Una firma de inversión transformó su programa de pruebas de resiliencia con pruebas automatizadas continuas y análisis de escenarios, reduciendo los costos anuales de pruebas en un 71% mientras superaba los requisitos regulatorios. La visibilidad multifuncional permitió que los equipos de negocio, TI y riesgos alinearan prioridades y coordinaran respuestas de manera más efectiva."
       }
     },
     "cta": {
-      "chat": "Conversemos"
+      "chat": "Hablemos"
+    }
+  },
+  "capabilities": {
+    "headline1": "Capacidades Integrales",
+    "headline2": "de Resiliencia",
+    "capability1": {
+      "title": "Marco de Gestión de Riesgos de TI",
+      "feature1": "Identificación y evaluación integral de riesgos",
+      "feature2": "Clasificación e inventario de activos de TI",
+      "feature3": "Estrategias y controles de mitigación de riesgos",
+      "feature4": "Monitoreo e informes continuos"
+    },
+    "capability2": {
+      "title": "Gestión e Informes de Incidentes",
+      "feature1": "Detección en tiempo real de incidentes mayores",
+      "feature2": "Flujos de trabajo automatizados de notificación regulatoria",
+      "feature3": "Análisis de causa raíz y documentación",
+      "feature4": "Automatización de revisión post-incidente",
+      "feature5": "Coordinación multifuncional de respuesta a incidentes",
+      "feature6": "Cronología y contexto compartido del incidente para todas las partes interesadas"
+    },
+    "capability3": {
+      "title": "Pruebas de Resiliencia Digital",
+      "feature1": "Evaluaciones continuas de vulnerabilidades",
+      "feature2": "Pruebas de resiliencia basadas en escenarios",
+      "feature3": "Pruebas de dependencias de terceros",
+      "feature4": "Soporte avanzado de pruebas de penetración guiadas por amenazas"
+    },
+    "capability4": {
+      "title": "Gestión de Riesgos de Terceros",
+      "feature1": "Monitoreo de proveedores de servicios de TI",
+      "feature2": "Seguimiento de cumplimiento contractual",
+      "feature3": "Agregación de riesgos de múltiples proveedores",
+      "feature4": "Documentación de estrategia de salida"
+    },
+    "capability5": {
+      "title": "Intercambio de Información",
+      "feature1": "Integración de inteligencia de amenazas",
+      "feature2": "Informes de incidentes entre entidades",
+      "feature3": "Conectividad con autoridades regulatorias",
+      "feature4": "Formatos estandarizados de intercambio de datos"
+    },
+    "cta": {
+      "button": "Agenda una Consulta"
     }
   },
   "trust": {
-    "headline1": "Diseñado para la",
+    "headline1": "Construida para",
     "headline2": "Confianza y Seguridad",
-    "subheadline": "La seguridad y la confianza son el núcleo de todo lo que hacemos. Theodora está diseñada desde cero con seguridad de grado financiero.",
+    "subheadline": "La seguridad y la confianza están en el centro de todo lo que hacemos. Theodora está diseñada con seguridad de grado financiero desde el principio.",
     "feature1": {
       "title": "Seguridad de Nivel Empresarial",
-      "description": "Construido con un diseño de seguridad prioritaria, cifrado en reposo y en tránsito, y registros de auditoría exhaustivos.",
-      "item1": "Cumple con SOC 2",
+      "description": "Construida con diseño que prioriza la seguridad, cifrado en reposo y en tránsito, y registros de auditoría integrales.",
+      "item1": "Cumplimiento SOC 2",
       "item2": "Alineado con ISO 27001",
-      "item3": "Cumple con RGPD"
+      "item3": "Cumplimiento GDPR"
     },
     "feature2": {
       "title": "Protección de Datos",
@@ -195,20 +257,20 @@
       "item3": "Cumplimiento SOX"
     },
     "cta": {
-      "title": "¿Listo para hablar sobre cómo asegurar tus operaciones financieras?",
-      "description": "Inicia una conversación para descubrir cómo Theodora puede ayudarte a prevenir riesgos y automatizar el cumplimiento.",
-      "button": "Conversemos"
+      "title": "¿Listo para discutir la seguridad de tus operaciones financieras?",
+      "description": "Inicia una conversación para ver cómo Theodora puede ayudarte a prevenir riesgos y automatizar el cumplimiento.",
+      "button": "Hablemos"
     },
-    "trustedBy": "Con la confianza de instituciones financieras de todo el mundo"
+    "trustedBy": "Confiada por instituciones financieras en todo el mundo"
   },
   "finalCta": {
-    "headline1": "Asegura Tus Operaciones.",
-    "headline2": "Automatiza el Cumplimiento.",
-    "subheadline": "Inicia una conversación hoy mismo y descubre cómo Theodora puede transformar tu enfoque hacia el riesgo operacional y el cumplimiento.",
-    "button": "Conversemos Hoy"
+    "headline1": "Logra el Cumplimiento con",
+    "headline2": "Confianza",
+    "subheadline": "Theodora proporciona la plataforma integral que las entidades financieras necesitan para cumplir con los requisitos regulatorios mientras construyen una resiliencia operacional genuina.",
+    "button": "Hablemos"
   },
   "footer": {
-    "description": "Inteligencia de riesgo operacional en tiempo real y garantía de cumplimiento automatizado para instituciones financieras.",
+    "description": "Inteligencia de riesgos operacionales en tiempo real y aseguramiento de cumplimiento automatizado para instituciones financieras.",
     "social": {
       "twitter": "Twitter",
       "linkedin": "LinkedIn",
@@ -225,8 +287,8 @@
     "resources": {
       "title": "Recursos",
       "blog": "Blog",
-      "caseStudies": "Casos de Éxito",
-      "whitepapers": "Informes Técnicos",
+      "caseStudies": "Casos de Estudio",
+      "whitepapers": "Documentos Técnicos",
       "documentation": "Documentación",
       "support": "Soporte"
     },
@@ -242,31 +304,31 @@
     "cookies": "Cookies"
   },
   "form": {
-    "title": "Conversemos sobre tus necesidades",
+    "title": "Hablemos de tus necesidades",
     "name": "Nombre Completo",
-    "email": "Correo Electrónico",
+    "email": "Email",
     "company": "Empresa",
     "role": "Cargo",
     "message": "Mensaje",
     "submit": "Enviar Mensaje",
     "success": "¡Gracias! Nos pondremos en contacto pronto.",
-    "error": "Error: Hubo un error. Por favor, inténtalo de nuevo.",
-    "required": "Campo obligatorio"
+    "error": "Hubo un error. Por favor, inténtalo de nuevo.",
+    "required": "Campo requerido"
   },
   "privacy": {
     "title": "Política de Privacidad",
-    "effectiveDateLabel": "Fecha de Entrada en Vigor:",
+    "effectiveDateLabel": "Fecha de Vigencia:",
     "section1": {
       "title": "1. Introducción",
-      "paragraph1": "Bienvenido/a a Theodora (\"nosotros\", \"nos\", \"nuestro/a\"). Estamos comprometidos con la protección de la privacidad de nuestros usuarios (\"usted\", \"su\"). Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestro sitio web {websiteUrl} y utiliza nuestra plataforma de inteligencia de riesgo operacional y cumplimiento automatizado (el \"Servicio\"). Por favor, lea esta política de privacidad detenidamente. Si no está de acuerdo con los términos de esta política de privacidad, por favor no acceda al sitio ni utilice nuestros Servicios.",
-      "paragraph2": "Nos reservamos el derecho de realizar cambios a esta Política de Privacidad en cualquier momento y por cualquier motivo. Le alertaremos sobre cualquier cambio actualizando la \"Fecha de Entrada en Vigor\" de esta Política de Privacidad."
+      "paragraph1": "Bienvenido a Theodora (\"nosotros\", \"nuestro\"). Estamos comprometidos con la protección de la privacidad de nuestros usuarios (\"usted\", \"su\"). Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestro sitio web {websiteUrl} y usa nuestra plataforma de inteligencia de riesgos operacionales y cumplimiento automatizado (el \"Servicio\"). Por favor, lea esta política de privacidad cuidadosamente. Si no está de acuerdo con los términos de esta política de privacidad, por favor no acceda al sitio ni use nuestros Servicios.",
+      "paragraph2": "Nos reservamos el derecho de realizar cambios a esta Política de Privacidad en cualquier momento y por cualquier razón. Le alertaremos sobre cualquier cambio actualizando la \"Fecha de Vigencia\" de esta Política de Privacidad."
     },
     "section2": {
-      "title": "2. Recopilación de Su Información",
-      "intro": "Podemos recopilar información sobre usted de diversas maneras. La información que podemos recopilar a través del Servicio incluye:",
+      "title": "2. Recopilación de su Información",
+      "intro": "Podemos recopilar información sobre usted de varias maneras. La información que podemos recopilar a través del Servicio incluye:",
       "item1": {
         "title": "Datos Personales:",
-        "description": "Información de identificación personal, como su nombre, dirección de correo electrónico, número de teléfono, cargo y nombre de la empresa, que usted nos proporciona voluntariamente cuando se registra en el Servicio o cuando elige participar en diversas actividades relacionadas con el Servicio, como solicitar una demostración o contactarnos."
+        "description": "Información de identificación personal, como su nombre, dirección de correo electrónico, número de teléfono, título de trabajo y nombre de la empresa, que nos proporciona voluntariamente cuando se registra en el Servicio o cuando elige participar en diversas actividades relacionadas con el Servicio, como solicitar una demostración o contactarnos."
       },
       "item2": {
         "title": "Datos Derivados:",
@@ -274,76 +336,76 @@
       },
       "item3": {
         "title": "Datos Financieros:",
-        "description": "No recopilamos información financiera directamente. Si se requieren pagos por el Servicio, se procesarán a través de un procesador de pagos seguro de terceros."
+        "description": "No recopilamos información financiera directamente. Si se requieren pagos para el Servicio, serán procesados a través de un procesador de pagos de terceros seguro."
       },
       "item4": {
         "title": "Datos de Uso de la Plataforma:",
-        "description": "Información sobre cómo utiliza la plataforma Theodora, incluidas las interacciones con funciones, configuraciones y datos operativos (anonimizados o agregados cuando sea posible)."
+        "description": "Información sobre cómo usa la plataforma Theodora, incluyendo interacciones con características, configuraciones y datos operacionales (anonimizados o agregados cuando sea posible)."
       },
       "item5": {
-        "title": "Cookies y Tecnologías de Rastreo:",
-        "description": "Podemos utilizar cookies, balizas web, píxeles de seguimiento y otras tecnologías de rastreo en el Servicio para ayudar a personalizar el Servicio y mejorar su experiencia. Consulte nuestra Política de Cookies para obtener más detalles."
+        "title": "Cookies y Tecnologías de Seguimiento:",
+        "description": "Podemos usar cookies, balizas web, píxeles de seguimiento y otras tecnologías de seguimiento en el Servicio para ayudar a personalizar el Servicio y mejorar su experiencia. Por favor, consulte nuestra Política de Cookies para más detalles."
       }
     },
     "section3": {
-      "title": "3. Uso de Su Información",
-      "intro": "Tener información precisa sobre usted nos permite brindarle una experiencia fluida, eficiente y personalizada. Específicamente, podemos usar la información recopilada sobre usted a través del Servicio para:",
-      "item1": "Crear y administrar su cuenta.",
+      "title": "3. Uso de su Información",
+      "intro": "Tener información precisa sobre usted nos permite proporcionarle una experiencia fluida, eficiente y personalizada. Específicamente, podemos usar la información recopilada sobre usted a través del Servicio para:",
+      "item1": "Crear y gestionar su cuenta.",
       "item2": "Proporcionar y administrar nuestros Servicios.",
-      "item3": "Procesar transacciones y enviar información relacionada, incluidas confirmaciones de compra y facturas.",
+      "item3": "Procesar transacciones y enviar información relacionada, incluyendo confirmaciones de compra y facturas.",
       "item4": "Comunicarnos con usted sobre su cuenta o el Servicio, incluyendo responder a sus comentarios, preguntas y solicitudes; proporcionar servicio y soporte al cliente.",
       "item5": "Enviarle comunicaciones administrativas, técnicas o de marketing.",
       "item6": "Monitorear y analizar el uso y las tendencias para mejorar su experiencia con el Servicio.",
-      "item7": "Mejorar la funcionalidad y seguridad de nuestro Servicio, incluida la prevención del fraude.",
+      "item7": "Mejorar la funcionalidad y seguridad de nuestro Servicio, incluyendo la prevención de fraude.",
       "item8": "Cumplir con los requisitos legales y regulatorios aplicables.",
       "item9": "Realizar otras actividades comerciales según sea necesario."
     },
     "section4": {
-      "title": "4. Divulgación de Su Información",
-      "intro": "Podemos compartir la información que hemos recopilado sobre usted en ciertas situaciones. Su información puede ser divulgada de la siguiente manera:",
+      "title": "4. Divulgación de su Información",
+      "intro": "Podemos compartir información que hemos recopilado sobre usted en ciertas situaciones. Su información puede divulgarse de la siguiente manera:",
       "item1": {
         "title": "Por Ley o para Proteger Derechos:",
-        "description": "Si creemos que la divulgación de información sobre usted es necesaria para responder a un proceso legal, investigar o remediar posibles violaciones de nuestras políticas, o para proteger los derechos, la propiedad y la seguridad de otros, podemos compartir su información según lo permita o exija cualquier ley, norma o regulación aplicable."
+        "description": "Si creemos que la divulgación de información sobre usted es necesaria para responder a procesos legales, investigar o remediar posibles violaciones de nuestras políticas, o proteger los derechos, la propiedad y la seguridad de otros, podemos compartir su información según lo permita o exija cualquier ley, regla o regulación aplicable."
       },
       "item2": {
         "title": "Proveedores de Servicios de Terceros:",
-        "description": "Podemos compartir su información con terceros que realizan servicios para nosotros o en nuestro nombre, incluido el procesamiento de pagos, análisis de datos, entrega de correos electrónicos, servicios de alojamiento, servicio al cliente y asistencia de marketing."
+        "description": "Podemos compartir su información con terceros que realizan servicios para nosotros o en nuestro nombre, incluyendo procesamiento de pagos, análisis de datos, entrega de correo electrónico, servicios de alojamiento, servicio al cliente y asistencia de marketing."
       },
       "item3": {
         "title": "Transferencias Comerciales:",
-        "description": "Podemos compartir o transferir su información en relación con, o durante las negociaciones de, cualquier fusión, venta de activos de la empresa, financiación o adquisición de la totalidad o una parte de nuestro negocio a otra empresa."
+        "description": "Podemos compartir o transferir su información en conexión con, o durante las negociaciones de, cualquier fusión, venta de activos de la empresa, financiación o adquisición de todo o una parte de nuestro negocio a otra empresa."
       },
       "item4": {
-        "title": "Con Su Consentimiento:",
+        "title": "Con su Consentimiento:",
         "description": "Podemos divulgar su información personal para cualquier otro propósito con su consentimiento."
       }
     },
     "section5": {
-      "title": "5. Seguridad de Su Información",
-      "paragraph1": "Utilizamos medidas de seguridad administrativas, técnicas y físicas para ayudar a proteger su información personal. Si bien hemos tomado medidas razonables para proteger la información personal que nos proporciona, tenga en cuenta que, a pesar de nuestros esfuerzos, ninguna medida de seguridad es perfecta o impenetrable, y ningún método de transmisión de datos puede garantizarse contra cualquier intercepción u otro tipo de uso indebido."
+      "title": "5. Seguridad de su Información",
+      "paragraph1": "Usamos medidas de seguridad administrativas, técnicas y físicas para ayudar a proteger su información personal. Si bien hemos tomado medidas razonables para asegurar la información personal que nos proporciona, tenga en cuenta que, a pesar de nuestros esfuerzos, ninguna medida de seguridad es perfecta o impenetrable, y ningún método de transmisión de datos puede garantizarse contra cualquier intercepción u otro tipo de uso indebido."
     },
     "section6": {
       "title": "6. Retención de Datos",
-      "paragraph1": "Solo conservaremos su información personal durante el tiempo que sea necesario para los fines establecidos en esta política de privacidad, a menos que la ley exija o permita un período de retención más largo (como requisitos fiscales, contables u otros legales)."
+      "paragraph1": "Solo conservaremos su información personal durante el tiempo que sea necesario para los propósitos establecidos en esta política de privacidad, a menos que la ley requiera o permita un período de retención más largo (como requisitos fiscales, contables u otros legales)."
     },
     "section7": {
       "title": "7. Sus Derechos de Privacidad",
       "intro": "Dependiendo de su ubicación, puede tener ciertos derechos con respecto a su información personal, tales como:",
-      "item1": "El derecho de acceso: tiene derecho a solicitar copias de sus datos personales.",
-      "item2": "El derecho de rectificación: tiene derecho a solicitar que corrijamos cualquier información que crea que es inexacta o incompleta.",
-      "item3": "El derecho de supresión: tiene derecho a solicitar que eliminemos sus datos personales, bajo ciertas condiciones.",
-      "item4": "El derecho a restringir el procesamiento: tiene derecho a solicitar que restrinjamos el procesamiento de sus datos personales, bajo ciertas condiciones.",
-      "item5": "El derecho a oponerse al procesamiento: tiene derecho a oponerse a nuestro procesamiento de sus datos personales, bajo ciertas condiciones.",
-      "item6": "El derecho a la portabilidad de los datos: tiene derecho a solicitar que transfiramos los datos que hemos recopilado a otra organización, o directamente a usted, bajo ciertas condiciones.",
+      "item1": "El derecho de acceso - Tiene derecho a solicitar copias de sus datos personales.",
+      "item2": "El derecho de rectificación - Tiene derecho a solicitar que corrijamos cualquier información que crea que es inexacta o incompleta.",
+      "item3": "El derecho de supresión - Tiene derecho a solicitar que eliminemos sus datos personales, bajo ciertas condiciones.",
+      "item4": "El derecho de restringir el procesamiento - Tiene derecho a solicitar que restrinjamos el procesamiento de sus datos personales, bajo ciertas condiciones.",
+      "item5": "El derecho de oposición al procesamiento - Tiene derecho a oponerse a nuestro procesamiento de sus datos personales, bajo ciertas condiciones.",
+      "item6": "El derecho a la portabilidad de datos - Tiene derecho a solicitar que transfiramos los datos que hemos recopilado a otra organización, o directamente a usted, bajo ciertas condiciones.",
       "outro": "Si desea ejercer alguno de estos derechos, contáctenos utilizando la información de contacto proporcionada a continuación."
     },
     "section8": {
-      "title": "8. Política para Menores",
-      "paragraph1": "No solicitamos deliberadamente información ni comercializamos a niños menores de 13 años (o la edad aplicable en su jurisdicción). Si tiene conocimiento de algún dato que hayamos recopilado de niños menores de esa edad, contáctenos."
+      "title": "8. Política para Niños",
+      "paragraph1": "No solicitamos información de niños menores de 13 años (o la edad aplicable en su jurisdicción) ni comercializamos para ellos. Si se entera de que hemos recopilado datos de niños menores de esa edad, contáctenos."
     },
     "section9": {
       "title": "9. Transferencias Internacionales",
-      "paragraph1": "Su información, incluida la información personal, puede transferirse a — y mantenerse en — computadoras ubicadas fuera de su estado, provincia, país u otra jurisdicción gubernamental donde las leyes de protección de datos pueden diferir de las de su jurisdicción. Tomaremos todas las medidas razonablemente necesarias para garantizar que sus datos se traten de forma segura y de acuerdo con esta Política de Privacidad."
+      "paragraph1": "Su información, incluida la información personal, puede transferirse y mantenerse en computadoras ubicadas fuera de su estado, provincia, país u otra jurisdicción gubernamental donde las leyes de protección de datos pueden diferir de las de su jurisdicción. Tomaremos todas las medidas razonablemente necesarias para garantizar que sus datos se traten de forma segura y de conformidad con esta Política de Privacidad."
     },
     "section10": {
       "title": "10. Contáctenos",
@@ -351,91 +413,91 @@
       "address": {
         "line1": "Theodora",
         "line2": "{contactAddress}",
-        "email": "Correo Electrónico: {contactEmail}",
+        "email": "Email: {contactEmail}",
         "phone": "Teléfono: {contactPhone}"
       }
     }
   },
   "terms": {
     "title": "Términos de Servicio",
-    "effectiveDateLabel": "Fecha de Entrada en Vigor:",
+    "effectiveDateLabel": "Fecha de Vigencia:",
     "section1": {
-      "title": "1. Acuerdo de los Términos",
-      "paragraph1": "Estos Términos de Servicio constituyen un acuerdo legalmente vinculante celebrado entre usted, ya sea personalmente o en nombre de una entidad (\"usted\") y Theodora (\"nosotros\", \"nos\" o \"nuestro/a\"), con respecto a su acceso y uso del sitio web {websiteUrl}, así como cualquier otra forma de medio, canal de medios, sitio web móvil o aplicación móvil relacionada, vinculada o conectada de otro modo al mismo (colectivamente, el \"Sitio\") y nuestra plataforma de inteligencia de riesgo operacional y cumplimiento automatizado (el \"Servicio\").",
-      "paragraph2": "Usted acepta que al acceder al Sitio y/o al Servicio, ha leído, entendido y aceptado estar sujeto a todos estos Términos de Servicio. Si no está de acuerdo con todos estos Términos de Servicio, entonces tiene expresamente prohibido usar el Sitio y el Servicio y debe suspender su uso de inmediato.",
-      "paragraph3": "Los términos y condiciones suplementarios o documentos que puedan publicarse en el Sitio o Servicio de vez en cuando se incorporan expresamente aquí como referencia. Nos reservamos el derecho, a nuestra entera discreción, de realizar cambios o modificaciones a estos Términos de Servicio en cualquier momento y por cualquier motivo."
+      "title": "1. Acuerdo con los Términos",
+      "paragraph1": "Estos Términos de Servicio constituyen un acuerdo legalmente vinculante realizado entre usted, ya sea personalmente o en nombre de una entidad (\"usted\") y Theodora (\"nosotros\", \"nuestro\"), respecto a su acceso y uso del sitio web {websiteUrl}, así como cualquier otra forma de medios, canal de medios, sitio web móvil o aplicación móvil relacionada, vinculada o conectada de otro modo (colectivamente, el \"Sitio\") y nuestra plataforma de inteligencia de riesgos operacionales y cumplimiento automatizado (el \"Servicio\").",
+      "paragraph2": "Usted acepta que al acceder al Sitio y/o al Servicio, ha leído, entendido y acepta estar obligado por todos estos Términos de Servicio. Si no está de acuerdo con todos estos Términos de Servicio, entonces se le prohíbe expresamente usar el Sitio y el Servicio y debe suspender el uso inmediatamente.",
+      "paragraph3": "Los términos y condiciones suplementarios o documentos que pueden publicarse en el Sitio o Servicio de vez en cuando se incorporan expresamente aquí como referencia. Nos reservamos el derecho, a nuestra sola discreción, de realizar cambios o modificaciones a estos Términos de Servicio en cualquier momento y por cualquier razón."
     },
     "section2": {
       "title": "2. Descripción del Servicio",
-      "paragraph1": "Theodora proporciona una plataforma de inteligencia de riesgo operacional diseñada para instituciones financieras. Nuestro Servicio ofrece herramientas para la evaluación de riesgos, el monitoreo del cumplimiento, la generación de informes automatizados y la gestión de incidentes para ayudar a las organizaciones a gestionar los riesgos operativos y cumplir con los requisitos regulatorios."
+      "paragraph1": "Theodora proporciona una plataforma de inteligencia de riesgos operacionales diseñada para instituciones financieras. Nuestro Servicio ofrece herramientas para evaluación de riesgos, monitoreo de cumplimiento, informes automatizados y gestión de incidentes para ayudar a las organizaciones a gestionar riesgos operacionales y cumplir con requisitos regulatorios."
     },
     "section3": {
       "title": "3. Elegibilidad del Usuario y Cuenta",
-      "paragraph1": "El Servicio está destinado a usuarios que tengan al menos 18 años de edad. Las personas menores de 18 años no pueden usar ni registrarse en el Servicio.",
-      "paragraph2": "Es posible que deba registrarse en el Servicio. Usted acepta mantener la confidencialidad de su contraseña y será responsable de todo uso de su cuenta y contraseña. Nos reservamos el derecho de eliminar, reclamar o cambiar un nombre de usuario que seleccione si determinamos, a nuestra entera discreción, que dicho nombre de usuario es inapropiado, obsceno o de alguna otra manera objetable."
+      "paragraph1": "El Servicio está destinado a usuarios que tengan al menos 18 años. Las personas menores de 18 años no están permitidas para usar o registrarse en el Servicio.",
+      "paragraph2": "Es posible que deba registrarse en el Servicio. Usted acepta mantener su contraseña confidencial y será responsable de todo el uso de su cuenta y contraseña. Nos reservamos el derecho de eliminar, reclamar o cambiar un nombre de usuario que seleccione si determinamos, a nuestra sola discreción, que dicho nombre de usuario es inapropiado, obsceno o de otro modo objetable."
     },
     "section4": {
       "title": "4. Declaraciones del Usuario",
-      "intro": "Al utilizar el Servicio, usted declara y garantiza que:",
+      "intro": "Al usar el Servicio, usted declara y garantiza que:",
       "item1": "Toda la información de registro que envíe será verdadera, precisa, actual y completa;",
-      "item2": "Mantendrá la precisión de dicha información y actualizará puntualmente dicha información de registro según sea necesario;",
+      "item2": "Mantendrá la exactitud de dicha información y actualizará rápidamente dicha información de registro según sea necesario;",
       "item3": "Tiene la capacidad legal y acepta cumplir con estos Términos de Servicio;",
       "item4": "No accederá al Servicio a través de medios automatizados o no humanos, ya sea a través de un bot, script o de otro modo;",
-      "item5": "No utilizará el Servicio para ningún propósito ilegal o no autorizado;",
+      "item5": "No usará el Servicio para ningún propósito ilegal o no autorizado;",
       "item6": "Su uso del Servicio no violará ninguna ley o regulación aplicable."
     },
     "section5": {
       "title": "5. Actividades Prohibidas",
-      "intro": "No puede acceder ni utilizar el Servicio para ningún otro propósito que no sea aquel para el cual ponemos a disposición el Servicio. El Servicio no puede utilizarse en relación con ninguna actividad comercial, excepto aquellas que estén específicamente respaldadas o aprobadas por nosotros. Como usuario del Servicio, usted acepta no:",
-      "item1": "Recuperar sistemáticamente datos u otro contenido del Servicio para crear o compilar, directa o indirectamente, una colección, compilación, base de datos o directorio sin nuestro permiso por escrito.",
-      "item2": "Hacer cualquier uso no autorizado del Servicio, incluida la recopilación de nombres de usuario y/o direcciones de correo electrónico de usuarios por medios electrónicos u otros con el fin de enviar correos electrónicos no solicitados, o crear cuentas de usuario por medios automatizados o bajo pretextos falsos.",
-      "item3": "Eludir, deshabilitar o interferir de cualquier otra manera con las características relacionadas con la seguridad del Servicio.",
-      "item4": "Participar en el enmarcado o enlace no autorizado al Servicio.",
-      "item5": "Engañar, defraudar o inducir a error a nosotros y a otros usuarios, especialmente en cualquier intento de obtener información confidencial de la cuenta, como las contraseñas de los usuarios.",
-      "item6": "Interferir, interrumpir o crear una carga indebida en el Servicio o en las redes o servicios conectados al Servicio.",
-      "item7": "Utilizar cualquier información obtenida del Servicio para acosar, abusar o dañar a otra persona.",
-      "item8": "Utilizar el Servicio como parte de cualquier esfuerzo para competir con nosotros o utilizar de otro modo el Servicio y/o el Contenido para cualquier actividad generadora de ingresos o empresa comercial.",
-      "item9": "Descifrar, descompilar, desensamblar o aplicar ingeniería inversa a cualquier parte del software que comprende o de alguna manera forma parte del Servicio.",
-      "item10": "Acosar, molestar, intimidar o amenazar a cualquiera de nuestros empleados o agentes dedicados a proporcionarle cualquier parte del Servicio.",
-      "item11": "Cargar o transmitir (o intentar cargar o transmitir) virus, troyanos u otro material que interfiera con el uso y disfrute ininterrumpido del Servicio por parte de cualquier parte o que modifique, perjudique, interrumpa, altere o interfiera con el uso, las características, las funciones, el funcionamiento o el mantenimiento del Servicio.",
-      "item12": "Utilizar el Servicio de una manera inconsistente con las leyes o regulaciones aplicables."
+      "intro": "No puede acceder o usar el Servicio para ningún propósito que no sea aquel para el cual ponemos el Servicio disponible. El Servicio no puede usarse en conexión con ningún esfuerzo comercial excepto aquellos que sean específicamente respaldados o aprobados por nosotros. Como usuario del Servicio, acepta no:",
+      "item1": "Recuperar sistemáticamente datos u otro contenido del Servicio para crear o compilar, directa o indirectamente, una colección, compilación, base de datos o directorio sin permiso por escrito de nosotros.",
+      "item2": "Hacer cualquier uso no autorizado del Servicio, incluyendo recopilar nombres de usuario y/o direcciones de correo electrónico de usuarios por medios electrónicos u otros para enviar correos electrónicos no solicitados, o crear cuentas de usuario por medios automatizados o bajo pretextos falsos.",
+      "item3": "Eludir, deshabilitar o interferir de otro modo con las funciones relacionadas con la seguridad del Servicio.",
+      "item4": "Participar en el encuadre no autorizado o vinculación al Servicio.",
+      "item5": "Engañar, defraudar o engañarnos a nosotros y a otros usuarios, especialmente en cualquier intento de aprender información confidencial de la cuenta, como contraseñas de usuario.",
+      "item6": "Interferir, interrumpir o crear una carga indebida en el Servicio o las redes o servicios conectados al Servicio.",
+      "item7": "Usar cualquier información obtenida del Servicio para acosar, abusar o dañar a otra persona.",
+      "item8": "Usar el Servicio como parte de cualquier esfuerzo para competir con nosotros o usar el Servicio y/o el Contenido para cualquier esfuerzo que genere ingresos o empresa comercial.",
+      "item9": "Descifrar, descompilar, desensamblar o hacer ingeniería inversa de cualquier software que comprenda o forme parte del Servicio.",
+      "item10": "Acosar, molestar, intimidar o amenazar a cualquiera de nuestros empleados o agentes involucrados en proporcionarle cualquier parte del Servicio.",
+      "item11": "Cargar o transmitir (o intentar cargar o transmitir) virus, caballos de Troya u otro material que interfiera con el uso y disfrute ininterrumpido de cualquier parte del Servicio o modifique, deteriore, interrumpa, altere o interfiera con el uso, características, funciones, operación o mantenimiento del Servicio.",
+      "item12": "Usar el Servicio de manera incompatible con cualquier ley o regulación aplicable."
     },
     "section6": {
       "title": "6. Derechos de Propiedad Intelectual",
-      "paragraph1": "A menos que se indique lo contrario, el Servicio es de nuestra propiedad y todo el código fuente, bases de datos, funcionalidad, software, diseños de sitios web, audio, video, texto, fotografías y gráficos en el Sitio y el Servicio (colectivamente, el \"Contenido\") y las marcas comerciales, marcas de servicio y logotipos contenidos en ellos (las \"Marcas\") son de nuestra propiedad o están controlados por nosotros o licenciados a nosotros, y están protegidos por las leyes de derechos de autor y marcas comerciales y diversos otros derechos de propiedad intelectual."
+      "paragraph1": "A menos que se indique lo contrario, el Servicio es nuestra propiedad exclusiva y todo el código fuente, bases de datos, funcionalidad, software, diseños de sitios web, audio, video, texto, fotografías y gráficos en el Sitio y el Servicio (colectivamente, el \"Contenido\") y las marcas comerciales, marcas de servicio y logotipos contenidos en él (las \"Marcas\") son propiedad o están controlados por nosotros o con licencia para nosotros, y están protegidos por leyes de derechos de autor y marcas comerciales y varios otros derechos de propiedad intelectual."
     },
     "section7": {
-      "title": "7. Vigencia y Rescisión",
-      "paragraph1": "Estos Términos de Servicio permanecerán en pleno vigor y efecto mientras utilice el Servicio. Sin limitar ninguna otra disposición de estos términos, nos reservamos el derecho de, a nuestra entera discreción y sin previo aviso ni responsabilidad, denegar el acceso y uso del servicio (incluido el bloqueo de ciertas direcciones IP), a cualquier persona por cualquier motivo o sin motivo alguno."
+      "title": "7. Plazo y Terminación",
+      "paragraph1": "Estos Términos de Servicio permanecerán en pleno vigor y efecto mientras use el Servicio. Sin limitar ninguna otra disposición de estos términos, nos reservamos el derecho, a nuestra sola discreción y sin previo aviso o responsabilidad, de negar el acceso y el uso del servicio (incluido el bloqueo de ciertas direcciones IP), a cualquier persona por cualquier razón o sin razón alguna."
     },
     "section8": {
       "title": "8. Modificaciones e Interrupciones",
-      "paragraph1": "Nos reservamos el derecho de cambiar, modificar o eliminar el contenido del Servicio en cualquier momento o por cualquier motivo a nuestra entera discreción y sin previo aviso. También nos reservamos el derecho de modificar o discontinuar todo o parte del Servicio sin previo aviso en cualquier momento.",
-      "paragraph2": "No podemos garantizar que el Servicio esté disponible en todo momento. Podemos experimentar problemas de hardware, software u otros, o necesitar realizar mantenimiento relacionado con el Servicio, lo que resultará en interrupciones, retrasos o errores. Nos reservamos el derecho de cambiar, revisar, actualizar, suspender, discontinuar o modificar de otro modo el Servicio en cualquier momento o por cualquier motivo sin previo aviso."
+      "paragraph1": "Nos reservamos el derecho de cambiar, modificar o eliminar el contenido del Servicio en cualquier momento o por cualquier razón a nuestra sola discreción sin previo aviso. También nos reservamos el derecho de modificar o interrumpir todo o parte del Servicio sin previo aviso en cualquier momento.",
+      "paragraph2": "No podemos garantizar que el Servicio estará disponible en todo momento. Podemos experimentar problemas de hardware, software u otros o necesitar realizar mantenimiento relacionado con el Servicio, lo que resulta en interrupciones, retrasos o errores. Nos reservamos el derecho de cambiar, revisar, actualizar, suspender, interrumpir o modificar el Servicio en cualquier momento o por cualquier razón sin previo aviso."
     },
     "section9": {
       "title": "9. Ley Aplicable",
-      "paragraph1": "Estos Términos de Servicio y su uso del Servicio se rigen e interpretan de acuerdo con las leyes de {jurisdiction}, aplicables a los acuerdos celebrados y que se ejecutarán íntegramente dentro de {jurisdiction}, sin tener en cuenta sus principios de conflicto de leyes."
+      "paragraph1": "Estos Términos de Servicio y su uso del Servicio se rigen y se interpretan de acuerdo con las leyes de {jurisdiction}, aplicables a acuerdos realizados y que deben ejecutarse en su totalidad dentro de {jurisdiction}, sin tener en cuenta sus principios de conflicto de leyes."
     },
     "section10": {
       "title": "10. Resolución de Disputas",
-      "paragraph1": "Cualquier acción legal de cualquier naturaleza presentada por usted o por nosotros (colectivamente, las \"Partes\" e individualmente, una \"Parte\") se iniciará o procesará en los tribunales estatales y federales ubicados en {cityJurisdiction}, {jurisdiction}, y las Partes por la presente consienten y renuncian a todas las defensas de falta de jurisdicción personal y foro no conveniente con respecto al lugar y la jurisdicción en dichos tribunales estatales y federales."
+      "paragraph1": "Cualquier acción legal de cualquier naturaleza iniciada por usted o por nosotros (colectivamente, las \"Partes\" e individualmente, una \"Parte\") se iniciará o procesará en los tribunales estatales y federales ubicados en {cityJurisdiction}, {jurisdiction}, y las Partes por la presente consienten y renuncian a todas las defensas de falta de jurisdicción personal y foro no conveniente con respecto al lugar y la jurisdicción en dichos tribunales estatales y federales."
     },
     "section11": {
       "title": "11. Descargo de Responsabilidad",
-      "paragraph1": "EL SERVICIO SE PROPORCIONA \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". USTED ACEPTA QUE SU USO DEL SERVICIO SERÁ BAJO SU PROPIO RIESGO. EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, RENUNCIAMOS A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, EN RELACIÓN CON EL SERVICIO Y SU USO DEL MISMO, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN."
+      "paragraph1": "EL SERVICIO SE PROPORCIONA TAL CUAL Y SEGÚN DISPONIBILIDAD. USTED ACEPTA QUE SU USO DEL SERVICIO SERÁ BAJO SU PROPIO RIESGO. EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, RENUNCIAMOS A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, EN CONEXIÓN CON EL SERVICIO Y SU USO DEL MISMO, INCLUYENDO, SIN LIMITACIÓN, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN."
     },
     "section12": {
       "title": "12. Limitación de Responsabilidad",
-      "paragraph1": "EN NINGÚN CASO NOSOTROS O NUESTROS DIRECTORES, EMPLEADOS O AGENTES SEREMOS RESPONSABLES ANTE USTED O CUALQUIER TERCERO POR DAÑOS DIRECTOS, INDIRECTOS, CONSECUENTES, EJEMPLARES, INCIDENTALES, ESPECIALES O PUNITIVOS, INCLUIDA LA PÉRDIDA DE BENEFICIOS, PÉRDIDA DE INGRESOS, PÉRDIDA DE DATOS U OTROS DAÑOS DERIVADOS DE SU USO DEL SERVICIO, INCLUSO SI HEMOS SIDO ADVERTIDOS DE LA POSIBILIDAD DE DICHOS DAÑOS."
+      "paragraph1": "EN NINGÚN CASO NOSOTROS O NUESTROS DIRECTORES, EMPLEADOS O AGENTES SEREMOS RESPONSABLES ANTE USTED O CUALQUIER TERCERO POR CUALQUIER DAÑO DIRECTO, INDIRECTO, CONSECUENTE, EJEMPLAR, INCIDENTAL, ESPECIAL O PUNITIVO, INCLUIDA LA PÉRDIDA DE GANANCIAS, PÉRDIDA DE INGRESOS, PÉRDIDA DE DATOS U OTROS DAÑOS QUE SURJAN DE SU USO DEL SERVICIO, INCLUSO SI SE NOS HA ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS."
     },
     "section13": {
       "title": "13. Indemnización",
-      "paragraph1": "Usted acepta defender, indemnizar y eximirnos de toda responsabilidad, incluidas nuestras subsidiarias, afiliadas y todos nuestros respectivos funcionarios, agentes, socios y empleados, de y contra cualquier pérdida, daño, responsabilidad, reclamo o demanda, incluidos los honorarios y gastos razonables de abogados, realizados por cualquier tercero debido a o que surjan de: (1) el uso del Servicio; (2) el incumplimiento de estos Términos de Servicio; (3) cualquier incumplimiento de sus declaraciones y garantías establecidas en estos Términos de Servicio; (4) su violación de los derechos de un tercero, incluidos, entre otros, los derechos de propiedad intelectual; o (5) cualquier acto perjudicial manifiesto hacia cualquier otro usuario del Servicio con el que se conectó a través del Servicio."
+      "paragraph1": "Usted acepta defender, indemnizar y eximir de responsabilidad a nosotros, incluidas nuestras subsidiarias, afiliadas y todos nuestros respectivos funcionarios, agentes, socios y empleados, de y contra cualquier pérdida, daño, responsabilidad, reclamo o demanda, incluidos honorarios y gastos razonables de abogados, realizados por cualquier tercero debido a o que surjan de: (1) uso del Servicio; (2) incumplimiento de estos Términos de Servicio; (3) cualquier incumplimiento de sus declaraciones y garantías establecidas en estos Términos de Servicio; (4) su violación de los derechos de un tercero, incluidos, entre otros, los derechos de propiedad intelectual; o (5) cualquier acto dañino manifiesto hacia cualquier otro usuario del Servicio con el que se conectó a través del Servicio."
     },
     "section14": {
       "title": "14. Contáctenos",
-      "intro": "Para resolver una queja sobre el Servicio o para recibir más información sobre el uso del Servicio, contáctenos en:",
+      "intro": "Para resolver una queja relacionada con el Servicio o para recibir más información sobre el uso del Servicio, contáctenos en:",
       "address": {
         "line1": "Theodora",
         "email": "{contactEmail}"
@@ -444,41 +506,41 @@
   },
   "cookies": {
     "title": "Política de Cookies",
-    "effectiveDateLabel": "Fecha de Entrada en Vigor:",
+    "effectiveDateLabel": "Fecha de Vigencia:",
     "section1": {
       "title": "1. Introducción",
-      "paragraph1": "Esta Política de Cookies explica cómo Theodora (\"nosotros\", \"nos\" y \"nuestro/a\") utiliza cookies y tecnologías similares para reconocerlo cuando visita nuestro sitio web en {websiteUrl} (\"Sitio Web\"). Explica qué son estas tecnologías y por qué las usamos, así como sus derechos para controlar nuestro uso de ellas."
+      "paragraph1": "Esta Política de Cookies explica cómo Theodora (\"nosotros\", \"nuestro\") usa cookies y tecnologías similares para reconocerlo cuando visita nuestro sitio web en {websiteUrl} (\"Sitio Web\"). Explica qué son estas tecnologías y por qué las usamos, así como sus derechos para controlar nuestro uso de ellas."
     },
     "section2": {
       "title": "2. ¿Qué son las cookies?",
-      "paragraph1": "Las cookies son pequeños archivos de datos que se colocan en su computadora o dispositivo móvil cuando visita un sitio web. Las cookies son ampliamente utilizadas por los propietarios de sitios web para que sus sitios web funcionen, o para que funcionen de manera más eficiente, así como para proporcionar información de informes.",
-      "paragraph2": "Las cookies establecidas por el propietario del sitio web (en este caso, Theodora) se denominan \"cookies de origen\". Las cookies establecidas por partes distintas del propietario del sitio web se denominan \"cookies de terceros\". Las cookies de terceros habilitan funciones o funcionalidades de terceros que se proporcionan en o a través del sitio web (por ejemplo, publicidad, contenido interactivo y análisis)."
+      "paragraph1": "Las cookies son pequeños archivos de datos que se colocan en su computadora o dispositivo móvil cuando visita un sitio web. Los propietarios de sitios web utilizan ampliamente las cookies para que sus sitios web funcionen o funcionen de manera más eficiente, así como para proporcionar información de informes.",
+      "paragraph2": "Las cookies establecidas por el propietario del sitio web (en este caso, Theodora) se denominan \"cookies de origen\". Las cookies establecidas por partes distintas del propietario del sitio web se denominan \"cookies de terceros\". Las cookies de terceros habilitan características o funcionalidades de terceros para ser proporcionadas en o a través del sitio web (por ejemplo, publicidad, contenido interactivo y análisis)."
     },
     "section3": {
       "title": "3. ¿Por qué usamos cookies?",
-      "intro": "Utilizamos cookies de origen y de terceros por varias razones. Algunas cookies son necesarias por razones técnicas para que nuestro Sitio Web funcione, y nos referimos a estas como cookies \"esenciales\" o \"estrictamente necesarias\". Otras cookies también nos permiten rastrear y dirigir los intereses de nuestros usuarios para mejorar la experiencia en nuestras Propiedades en Línea. Terceros sirven cookies a través de nuestro Sitio Web para publicidad, análisis y otros fines. Esto se describe con más detalle a continuación:",
+      "intro": "Utilizamos cookies de origen y de terceros por varias razones. Algunas cookies son necesarias por razones técnicas para que nuestro Sitio Web funcione, y nos referimos a estas como cookies \"esenciales\" o \"estrictamente necesarias\". Otras cookies también nos permiten rastrear y dirigir los intereses de nuestros usuarios para mejorar la experiencia en nuestras Propiedades en Línea. Los terceros sirven cookies a través de nuestro Sitio Web con fines publicitarios, analíticos y otros. Esto se describe con más detalle a continuación:",
       "item1": {
         "title": "Cookies Esenciales del Sitio Web:",
-        "description": "Estas cookies son estrictamente necesarias para proporcionarle los servicios disponibles a través de nuestro Sitio Web y para utilizar algunas de sus funciones, como el acceso a áreas seguras."
+        "description": "Estas cookies son estrictamente necesarias para proporcionarle los servicios disponibles a través de nuestro Sitio Web y para usar algunas de sus características, como el acceso a áreas seguras."
       },
       "item2": {
         "title": "Cookies de Rendimiento y Funcionalidad:",
-        "description": "Estas cookies se utilizan para mejorar el rendimiento y la funcionalidad de nuestro Sitio Web, pero no son esenciales para su uso. Sin embargo, sin estas cookies, cierta funcionalidad puede dejar de estar disponible."
+        "description": "Estas cookies se utilizan para mejorar el rendimiento y la funcionalidad de nuestro Sitio Web, pero no son esenciales para su uso. Sin embargo, sin estas cookies, ciertas funcionalidades pueden no estar disponibles."
       },
       "item3": {
         "title": "Cookies de Análisis y Personalización:",
-        "description": "Estas cookies recopilan información que se utiliza en forma agregada para ayudarnos a comprender cómo se está utilizando nuestro Sitio Web o cuán efectivas son nuestras campañas de marketing, o para ayudarnos a personalizar nuestro Sitio Web para usted."
+        "description": "Estas cookies recopilan información que se utiliza en forma agregada para ayudarnos a comprender cómo se está utilizando nuestro Sitio Web o qué tan efectivas son nuestras campañas de marketing, o para ayudarnos a personalizar nuestro Sitio Web para usted."
       },
       "item4": {
         "title": "Cookies de Terceros:",
-        "description": "Podemos asociarnos con empresas de terceros para gestionar nuestra publicidad en otros sitios o para analizar el uso del sitio. Estos terceros pueden utilizar cookies o tecnologías similares para recopilar información sobre sus actividades en este sitio y otros sitios con el fin de proporcionarle publicidad basada en sus actividades de navegación e intereses, o para analizar el uso del sitio."
+        "description": "Podemos asociarnos con empresas de terceros para gestionar nuestra publicidad en otros sitios o para analizar el uso del sitio. Estos terceros pueden usar cookies o tecnologías similares para recopilar información sobre sus actividades en este sitio y otros sitios para proporcionarle publicidad basada en sus actividades e intereses de navegación, o para analizar el uso del sitio."
       }
     },
     "section4": {
       "title": "4. ¿Cómo puede controlar las cookies?",
-      "paragraph1": "Tiene derecho a decidir si acepta o rechaza las cookies. Puede ejercer sus derechos sobre las cookies configurando sus preferencias en su navegador web.",
-      "paragraph2": "La mayoría de los navegadores web permiten cierto control de la mayoría de las cookies a través de la configuración del navegador. Para obtener más información sobre las cookies, incluido cómo ver qué cookies se han configurado y cómo administrarlas y eliminarlas, visite www.aboutcookies.org o www.allaboutcookies.org.",
-      "paragraph3": "Generalmente puede encontrar esta configuración en el menú de 'opciones' o 'preferencias' de su navegador. Para comprender esta configuración, los siguientes enlaces pueden ser útiles, o puede usar la opción de 'Ayuda' en su navegador para obtener más detalles:",
+      "paragraph1": "Tiene derecho a decidir si acepta o rechaza cookies. Puede ejercer sus derechos de cookies estableciendo sus preferencias en su navegador web.",
+      "paragraph2": "La mayoría de los navegadores web permiten cierto control de la mayoría de las cookies a través de la configuración del navegador. Para obtener más información sobre las cookies, incluido cómo ver qué cookies se han establecido y cómo administrarlas y eliminarlas, visite www.aboutcookies.org o www.allaboutcookies.org.",
+      "paragraph3": "Generalmente puede encontrar estas configuraciones en el menú 'opciones' o 'preferencias' de su navegador. Para comprender estas configuraciones, los siguientes enlaces pueden ser útiles, o puede usar la opción 'Ayuda' en su navegador para más detalles:",
       "browserSettingsLinksIntro": "Configuración de cookies en navegadores populares:",
       "linkChrome": "Configuración de cookies en Chrome",
       "linkFirefox": "Configuración de cookies en Firefox",
@@ -486,11 +548,11 @@
       "linkEdge": "Configuración de cookies en Edge",
       "linkOpera": "Configuración de cookies en Opera",
       "paragraph4": "Para optar por no ser rastreado por Google Analytics en todos los sitios web, visite http://tools.google.com/dlpage/gaoptout.",
-      "paragraph5": "Tenga en cuenta que si elige rechazar las cookies, aún podrá utilizar nuestro sitio web, aunque su acceso a algunas funcionalidades y áreas de nuestro sitio web puede estar restringido."
+      "paragraph5": "Tenga en cuenta que si elige rechazar las cookies, aún puede usar nuestro sitio web, aunque su acceso a algunas funcionalidades y áreas de nuestro sitio web puede estar restringido."
     },
     "section5": {
       "title": "5. Cambios a esta Política de Cookies",
-      "paragraph1": "Podemos actualizar esta Política de Cookies de vez en cuando para reflejar, por ejemplo, cambios en las cookies que utilizamos o por otras razones operativas, legales o regulatorias. Por lo tanto, vuelva a visitar esta Política de Cookies regularmente para mantenerse informado sobre nuestro uso de cookies y tecnologías relacionadas."
+      "paragraph1": "Podemos actualizar esta Política de Cookies de vez en cuando para reflejar, por ejemplo, cambios en las cookies que usamos o por otras razones operativas, legales o regulatorias. Por lo tanto, vuelva a visitar esta Política de Cookies regularmente para mantenerse informado sobre nuestro uso de cookies y tecnologías relacionadas."
     },
     "section6": {
       "title": "6. Contáctenos",

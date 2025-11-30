@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { Shield, Activity, Database, LightbulbIcon } from 'lucide-react';
+import { Shield, Activity, Database, LightbulbIcon, Building2 } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { useTranslation } from 'react-i18next';
 
@@ -101,6 +101,17 @@ export const SolutionSection: React.FC<SolutionSectionProps> = ({ onOpenContactF
               </div>
             </div>
 
+            <div className="flex items-start gap-6">
+              <div className="p-4 rounded-lg bg-bg-secondary text-accent shrink-0">
+                <Building2 className="h-7 w-7" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-2">{t('solution.feature5.title')}</h3>
+                <p className="text-secondary">
+                  {t('solution.feature5.description')}
+                </p>
+              </div>
+            </div>
 
             <button onClick={onOpenContactForm} className="btn btn-primary">
               {t('solution.cta.chat')}

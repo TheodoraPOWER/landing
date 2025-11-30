@@ -6,385 +6,305 @@
     "benefits": "Benefícios",
     "letsChat": "Vamos Conversar"
   },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português"
+  },
   "hero": {
-    "title": "Pare de Reagir.",
-    "subtitle": "Comece a Prevenir o Risco Financeiro.",
-    "description": "Inteligência de risco operacional em tempo real e garantia de conformidade automatizada para instituições financeiras impulsionadas por IA e Observabilidade.",
-    "cta": {
-      "primary": "Vamos Conversar",
-      "secondary": "Saiba Mais"
-    },
-    "features": {
-      "observability": {
-        "title": "Observabilidade Unificada",
-        "description": "Visibilidade completa em todo o seu panorama de TI e operacional em tempo real."
-      },
-      "intelligence": {
-        "title": "Inteligência Impulsionada por IA",
-        "description": "Análise preditiva e detecção de anomalias para identificar riscos antes que impactem seu negócio."
-      },
-      "compliance": {
-        "title": "Conformidade Automatizada",
-        "description": "Garantia de conformidade nativa OSCAL com geração automática de evidências e relatórios."
-      }
-    },
     "headline1": "Pare de Reagir.",
-    "headline2": "Comece a Prevenir o Risco Financeiro.",
-    "subheadline": "Inteligência de risco operacional em tempo real e garantia de conformidade automatizada para instituições financeiras, impulsionada por IA e Observabilidade.",
+    "headline2": "Comece a Prevenir Riscos Operacionais.",
+    "subheadline": "Plataforma de resiliência operacional em tempo real com inteligência automatizada que ajuda entidades financeiras a gerenciar proativamente riscos de TI e operacionais.",
     "cta": {
       "chat": "Vamos Conversar",
       "learnMore": "Saiba Mais"
     },
     "feature1": {
       "title": "Observabilidade Unificada",
-      "description": "Visibilidade completa em todo o seu panorama de TI e operacional em tempo real."
+      "description": "Visibilidade completa em toda a sua infraestrutura de TI e panorama operacional em tempo real para maior resiliência."
     },
     "feature2": {
-      "title": "Inteligência Impulsionada por IA",
-      "description": "Análise preditiva e deteção de anomalias para identificar riscos antes que impactem o seu negócio."
+      "title": "Inteligência Baseada em IA",
+      "description": "Análise preditiva e detecção de anomalias para identificar riscos de TI e vulnerabilidades antes que impactem suas operações comerciais."
     },
     "feature3": {
+      "title": "Resolução Colaborativa",
+      "description": "Quebre silos e permita que equipes de TI, segurança, compliance e negócios trabalhem juntas em uma única plataforma para resolução de riscos mais rápida e eficaz."
+    },
+    "feature4": {
       "title": "Conformidade Automatizada",
-      "description": "Garantia de conformidade nativa OSCAL com geração automática de evidências e relatórios."
+      "description": "Garantia de conformidade integrada com geração automática de evidências, documentação de gestão de riscos de TI e relatórios regulatórios."
     }
   },
   "problem": {
-    "title": "Instituições Financeiras Enfrentam",
-    "titleHighlight": "Desafios Custosos",
-    "description": "No complexo cenário financeiro atual, os riscos operacionais e as cargas de conformidade continuam crescendo, levando a danos financeiros e reputacionais significativos.",
-    "cards": {
-      "losses": {
-        "title": "Perdas Financeiras Massivas",
-        "description": "Instituições financeiras sofrem bilhões em perdas diretas por falhas operacionais, erros e fraudes que não são detectados até ser tarde demais.",
-        "stat": "70B+",
-        "statDescription": "Perdas globais anuais por eventos de risco operacional"
-      },
-      "fines": {
-        "title": "Multas Regulatórias Pesadas",
-        "description": "O não cumprimento de regulamentações como AML, KYC, SOX e ISO 27001 resulta em penalidades severas e danos à reputação.",
-        "stat": "56B+",
-        "statDescription": "Multas relacionadas à conformidade desde 2008"
-      },
-      "inefficiency": {
-        "title": "Ineficiência Operacional",
-        "description": "Ferramentas isoladas e processos manuais criam ineficiências operacionais, com equipes gastando tempo excessivo reagindo a incidentes e coletando evidências de auditoria.",
-        "stat": "5,000+",
-        "statDescription": "Horas-pessoa gastas anualmente em tarefas manuais de conformidade"
-      },
-      "visibility": {
-        "title": "Visibilidade Limitada",
-        "description": "Instituições financeiras lutam para ver riscos emergentes em sistemas complexos e interconectados, levando a decisões baseadas em informações desatualizadas.",
-        "stat": "67%",
-        "statDescription": "Dos incidentes ocorrem por falta de visibilidade oportuna do risco"
-      }
-    },
-    "headline1": "Instituições Financeiras Enfrentam",
-    "headline2": "Desafios Custosos",
-    "subheadline": "No complexo cenário financeiro atual, os riscos operacionais e os encargos de conformidade continuam a crescer, levando a danos financeiros e reputacionais significativos.",
+    "headline1": "Entidades Financeiras Enfrentam",
+    "headline2": "Crescentes Desafios de Resiliência Digital",
+    "subheadline": "Entidades financeiras devem demonstrar gestão robusta de riscos de TI, capacidades de resposta a incidentes e resiliência operacional para atender requisitos regulatórios em evolução e proteger seus negócios.",
     "stat1": {
-      "title": "Perdas Financeiras Massivas",
-      "description": "As instituições financeiras sofrem perdas diretas de milhares de milhões devido a falhas operacionais, erros e fraudes que não são detetados até ser tarde demais.",
-      "value": "$70B",
-      "valueSuffix": "+",
-      "label": "Perdas globais anuais decorrentes de eventos de risco operacional"
+      "title": "Incidentes Críticos de TI",
+      "description": "Entidades financeiras experimentam graves interrupções por falhas de TI, ameaças cibernéticas e dependências de terceiros que comprometem a prestação de serviços.",
+      "value": "10",
+      "valueSuffix": "%",
+      "label": "Penalidades máximas do faturamento global por não conformidade regulatória"
     },
     "stat2": {
-      "title": "Multas Regulatórias Elevadas",
-      "description": "O incumprimento de regulamentos como AML, KYC, SOX e ISO 27001 resulta em penalidades severas e danos reputacionais.",
-      "value": "$56B",
-      "valueSuffix": "+",
-      "label": "Multas relacionadas à conformidade desde 2008"
+      "title": "Dependências de TI de Terceiros",
+      "description": "A supervisão abrangente de provedores de serviços de TI de terceiros cria obrigações complexas de monitoramento.",
+      "value": "85",
+      "valueSuffix": "%",
+      "label": "Das entidades financeiras dependem de serviços críticos de TI de terceiros"
     },
     "stat3": {
-      "title": "Ineficiência Operacional",
-      "description": "Ferramentas isoladas e processos manuais criam ineficiências operacionais, com equipas a despender tempo excessivo a reagir a incidentes e a recolher provas de auditoria.",
-      "value": "5,000",
+      "title": "Testes Manuais de Resiliência",
+      "description": "Abordagens tradicionais para testes de resiliência de TI consomem recursos massivos enquanto falham em atender aos requisitos de monitoramento contínuo.",
+      "value": "8,000",
       "valueSuffix": "+",
-      "label": "Horas-pessoa gastas anualmente em tarefas manuais de conformidade"
+      "label": "Horas-pessoa gastas anualmente em avaliações e testes de risco de TI"
     },
     "stat4": {
-      "title": "Visibilidade Limitada",
-      "description": "As instituições financeiras têm dificuldade em visualizar riscos emergentes em sistemas complexos e interligados, levando a decisões baseadas em informações desatualizadas.",
-      "value": "67",
+      "title": "Gestão Fragmentada de Riscos de TI",
+      "description": "Instituições financeiras lutam com dados de risco de TI isolados e equipes desconectadas, tornando quase impossível manter uma estrutura integrada de gestão de riscos ou colaborar efetivamente em soluções.",
+      "value": "73",
       "valueSuffix": "%",
-      "label": "Dos incidentes ocorrem devido à falta de visibilidade atempada do risco"
+      "label": "Dos incidentes de TI escalam devido à detecção tardia e má coordenação entre equipes"
     }
   },
   "solution": {
-    "title": "Apresentamos",
-    "titleHighlight": "Theodora",
-    "description": "A plataforma unificada para inteligência de risco operacional em tempo real e garantia de conformidade automatizada.",
-    "features": {
-      "prevention": {
-        "title": "Prevenção Proativa de Riscos",
-        "description": "Mude da reação para a prevenção proativa de riscos com inteligência em tempo real e análise preditiva."
-      },
-      "visibility": {
-        "title": "Visibilidade Completa",
-        "description": "Obtenha visibilidade ponta a ponta em todo o seu panorama operacional com nosso motor de observabilidade unificado."
-      },
-      "compliance": {
-        "title": "Conformidade Automatizada",
-        "description": "Reduza drasticamente o esforço de auditoria com geração automática de evidências OSCAL e garantia de conformidade contínua."
-      }
-    },
-    "demo": {
-      "title": "Dashboard em tempo real",
-      "cta": "Demo interativa"
-    },
-    "headline1": "Apresentando",
+    "headline1": "Apresentamos",
     "headline2": "Theodora",
-    "subheadline": "A plataforma unificada para inteligência de risco operacional em tempo real e garantia de conformidade automatizada.",
+    "subheadline": "A plataforma unificada para resiliência operacional, inteligência de riscos de TI em tempo real e garantia regulatória automatizada.",
     "feature1": {
-      "title": "Prevenção Proativa de Riscos",
-      "description": "Mude da resolução reativa de problemas para a prevenção proativa de riscos com inteligência em tempo real e análise preditiva."
+      "title": "Prevenção Proativa de Riscos de TI",
+      "description": "Mude da resposta reativa a incidentes para a gestão proativa de riscos de TI com observabilidade em tempo real e detecção de ameaças baseada em IA."
     },
     "feature2": {
-      "title": "Visibilidade Completa",
-      "description": "Obtenha visibilidade de ponta a ponta em todo o seu panorama operacional com o nosso motor de observabilidade unificado."
+      "title": "Arquitetura Pronta para Empresas",
+      "description": "Desenvolvida especificamente para abordar gestão abrangente de riscos de TI, relatórios de incidentes, testes de resiliência, monitoramento de terceiros e colaboração de equipes multifuncionais."
     },
     "feature3": {
-      "title": "Conformidade Automatizada",
-      "description": "Reduza drasticamente o esforço de auditoria com a geração automatizada de evidências OSCAL e garantia contínua de conformidade."
+      "title": "Hub de Colaboração Unificado",
+      "description": "Reúna operações de TI, equipes de segurança, oficiais de compliance e stakeholders de negócios em uma plataforma para resolver problemas mais rápido com contexto e visibilidade compartilhados."
+    },
+    "feature4": {
+      "title": "Documentação de Conformidade Automatizada",
+      "description": "Reduza drasticamente a carga regulatória com geração automática de evidências, monitoramento contínuo de controles e relatórios prontos para auditoria."
+    },
+    "feature5": {
+      "title": "Resiliência Baseada em IA",
+      "description": "Aproveite o aprendizado de máquina para detecção avançada de anomalias, reconhecimento de padrões e análise preditiva para identificar vulnerabilidades de TI antes que causem interrupções."
     },
     "cta": {
       "chat": "Vamos Conversar"
     },
     "mockup": {
       "tab1": "Painel",
-      "tab2": "Riscos",
+      "tab2": "Pontuação de Riscos",
       "tab3": "Conformidade",
-      "footer1": "Painel em tempo real",
-      "footer2": "Demo interativa"
+      "footer1": "Visualização do Painel",
+      "footer2": "Pontuação de Riscos, Status de Conformidade, Incidentes de TI"
     }
   },
   "pillars": {
-    "title": "Como",
-    "titleHighlight": "Theodora",
-    "titleEnd": "Funciona",
-    "description": "Nossa plataforma é construída sobre três pilares poderosos que trabalham juntos para fornecer inteligência de risco e garantia de conformidade abrangente.",
-    "items": {
-      "observability": {
-        "title": "Motor de Observabilidade Unificado",
-        "description": "Ingere e correlaciona logs, métricas e traces em toda sua infraestrutura de TI para uma visibilidade ponta a ponta completa.",
-        "features": [
-          "Coleta e correlação abrangente de dados",
-          "Rastreamento de processos ponta a ponta",
-          "Visibilidade operacional em tempo real",
-          "Diagnóstico de causa raiz"
-        ]
-      },
-      "intelligence": {
-        "title": "Inteligência de Risco Impulsionada por IA",
-        "description": "Aproveite o machine learning para detecção avançada de anomalias e reconhecimento preditivo de padrões para identificar riscos antes que impactem seu negócio.",
-        "features": [
-          "Detecção avançada de anomalias",
-          "Padrões de risco preditivos",
-          "Alertas inteligentes",
-          "Scorecard e visualização de risco"
-        ]
-      },
-      "automation": {
-        "title": "Garantia de Conformidade Automatizada",
-        "description": "Mapeie eventos operacionais em tempo real para controles de conformidade específicos e gere evidências automaticamente, reduzindo drasticamente o esforço de auditoria.",
-        "features": [
-          "Mapeamento de controles nativo OSCAL",
-          "Geração automatizada de evidências",
-          "Monitoramento contínuo de controles",
-          "Relatórios prontos para auditoria"
-        ]
-      }
-    },
-    "headline1": "Como",
-    "headline2": "Theodora Funciona",
-    "subheadline": "A nossa plataforma é construída sobre três pilares poderosos que trabalham em conjunto para fornecer inteligência de risco abrangente e garantia de conformidade.",
+    "headline1": "Como a Theodora",
+    "headline2": "Entrega Resiliência Operacional",
+    "subheadline": "Nossa plataforma fornece três capacidades integradas que entregam gestão abrangente de riscos de TI e resiliência operacional—com ferramentas de colaboração integradas que unem equipes multifuncionais em torno de objetivos compartilhados.",
     "pillar1": {
       "title": "Motor de Observabilidade Unificado",
-      "description": "Ingira e correlacione logs, métricas e rastreios de todo o seu panorama de TI para uma visibilidade completa de ponta a ponta.",
-      "feature1": "Recolha e correlação abrangente de dados",
-      "feature2": "Rastreamento de processos de ponta a ponta",
-      "feature3": "Visibilidade operacional em tempo real",
-      "feature4": "Diagnóstico de causa raiz"
+      "description": "Gestão Completa de Riscos de TI - Ingere e correlaciona logs, métricas e traces em toda a sua infraestrutura de TI para visibilidade completa.",
+      "feature1": "Inventário e classificação abrangente de ativos de TI",
+      "feature2": "Rastreamento de ponta a ponta de transações e processos",
+      "feature3": "Monitoramento de infraestrutura em tempo real",
+      "feature4": "Análise de causa raiz e diagnósticos",
+      "feature5": "Monitoramento de provedores de serviços de TI de terceiros",
+      "feature6": "Painéis compartilhados para visibilidade entre equipes"
     },
     "pillar2": {
-      "title": "Inteligência de Risco Impulsionada por IA",
-      "description": "Aproveite a aprendizagem automática para deteção avançada de anomalias e reconhecimento preditivo de padrões para identificar riscos antes que impactem o seu negócio.",
-      "feature1": "Deteção avançada de anomalias",
-      "feature2": "Padrões de risco preditivos",
-      "feature3": "Alertas inteligentes",
-      "feature4": "Scorecard e visualização de riscos"
+      "title": "Inteligência de Riscos Baseada em IA",
+      "description": "Gestão Inteligente de Incidentes - Aproveite o aprendizado de máquina para detecção avançada de ameaças e análise preditiva para identificar e prevenir incidentes relacionados a TI.",
+      "feature1": "Detecção automática de anomalias e alertas",
+      "feature2": "Análise preditiva de padrões de risco",
+      "feature3": "Classificação e priorização de incidentes maiores",
+      "feature4": "Pontuação e visualização de riscos em tempo real",
+      "feature5": "Identificação proativa de vulnerabilidades",
+      "feature6": "Fluxos de trabalho colaborativos de resposta a incidentes"
     },
     "pillar3": {
       "title": "Garantia de Conformidade Automatizada",
-      "description": "Mapeie eventos operacionais em tempo real para controlos de conformidade específicos e gere automaticamente evidências, reduzindo drasticamente o esforço de auditoria.",
-      "feature1": "Mapeamento de controlos nativo OSCAL",
-      "feature2": "Geração automatizada de evidências",
-      "feature3": "Monitorização contínua de controlos",
-      "feature4": "Relatórios prontos para auditoria"
+      "description": "Testes e Relatórios Contínuos de Resiliência - Mapeia eventos operacionais para requisitos regulatórios e gera automaticamente evidências e relatórios abrangentes de conformidade.",
+      "feature1": "Mapeamento integrado de framework de controle regulatório",
+      "feature2": "Coleta automática de evidências de conformidade",
+      "feature3": "Documentação contínua de testes de resiliência",
+      "feature4": "Templates pré-configurados de relatórios regulatórios",
+      "feature5": "Fluxos de trabalho de relatórios de incidentes maiores",
+      "feature6": "Documentação de conformidade pronta para auditoria"
     },
     "cta": {
       "chat": "Vamos Conversar"
     }
   },
   "benefits": {
-    "title": "Resultados",
-    "titleHighlight": "Mensuráveis",
-    "description": "Theodora entrega resultados de negócios tangíveis para instituições financeiras, com ROI e redução de risco comprovados.",
-    "stats": {
-      "riskReduction": {
-        "value": "78%",
-        "title": "Redução de Risco",
-        "description": "Reduza perdas operacionais e previna incidentes custosos"
-      },
-      "auditTime": {
-        "value": "85%",
-        "title": "Tempo de Auditoria Economizado",
-        "description": "Reduza o tempo gasto na coleta de evidências de conformidade"
-      },
-      "compliance": {
-        "value": "99%",
-        "title": "Taxa de Conformidade",
-        "description": "Mantenha conformidade contínua com regulamentações"
-      },
-      "roi": {
-        "value": "310%",
-        "title": "ROI Médio",
-        "description": "Retorno sobre investimento do primeiro ano para nossos clientes"
-      }
-    },
-    "results": {
-      "title": "Resultados Reais para Instituições Financeiras",
-      "description": "Theodora tem ajudado instituições financeiras líderes em todo o mundo a alcançar melhorias significativas na resiliência operacional e eficiência de conformidade.",
-      "cases": {
-        "losses": {
-          "title": "Redução de Perdas Operacionais",
-          "description": "Um banco global reduziu perdas operacionais em 78% no primeiro ano detectando e prevenindo problemas antes que impactassem os clientes."
-        },
-        "costs": {
-          "title": "Redução de Custos de Auditoria",
-          "description": "Uma seguradora reduziu custos de conformidade em 63% através da geração automatizada de evidências e monitoramento contínuo de conformidade."
-        },
-        "decisions": {
-          "title": "Melhoria na Tomada de Decisões",
-          "description": "Uma empresa de gestão de patrimônio melhorou decisões operacionais com inteligência de risco em tempo real, prevenindo $4.2M em perdas potenciais."
-        }
-      }
-    },
-    "headline1": "Resultados",
-    "headline2": "Mensuráveis",
-    "subheadline": "A Theodora oferece resultados de negócios tangíveis para instituições financeiras, com ROI comprovado e redução de riscos.",
+    "headline1": "Resultados Mensuráveis de",
+    "headline2": "Resiliência Operacional",
+    "subheadline": "Theodora entrega resultados tangíveis para entidades financeiras, com melhorias comprovadas em resiliência e eficiência de conformidade.",
     "stat1": {
-      "title": "Redução de Riscos",
-      "description": "Reduza as perdas operacionais e previna incidentes dispendiosos"
+      "title": "Detecção Mais Rápida de Incidentes",
+      "description": "Identifique e classifique incidentes maiores de TI em tempo real"
     },
     "stat2": {
-      "title": "Tempo de Auditoria Poupo",
-      "description": "Reduza drasticamente o tempo gasto na recolha de provas de conformidade"
+      "title": "Automação de Conformidade",
+      "description": "Reduza o esforço manual para documentação e relatórios"
     },
     "stat3": {
-      "title": "Taxa de Conformidade",
-      "description": "Mantenha a conformidade contínua com os regulamentos"
+      "title": "Resiliência de Infraestrutura",
+      "description": "Mantenha a continuidade operacional com monitoramento proativo"
     },
     "stat4": {
-      "title": "ROI Médio",
-      "description": "Retorno sobre o investimento no primeiro ano para os nossos clientes"
+      "title": "Redução de Riscos",
+      "description": "Previna incidentes relacionados a TI através de inteligência preditiva"
+    },
+    "stat5": {
+      "title": "Resolução Mais Rápida",
+      "description": "Resolva incidentes mais rápido com colaboração multifuncional"
     },
     "realResults": {
-      "title": "Resultados Reais para Instituições Financeiras",
-      "description": "A Theodora ajudou instituições financeiras líderes em todo o mundo a alcançar melhorias significativas na resiliência operacional e na eficiência da conformidade.",
+      "title": "Resultados Reais para Entidades Financeiras",
+      "description": "Theodora ajuda instituições financeiras a alcançar conformidade regulatória enquanto fortalece a resiliência operacional.",
       "case1": {
-        "title": "Redução de Perdas Operacionais",
-        "description": "Um banco global reduziu as perdas operacionais em 78% no primeiro ano, detetando e prevenindo problemas antes que impactassem os clientes."
+        "title": "Preparação Acelerada para Conformidade",
+        "description": "Um banco alcançou conformidade regulatória completa antes dos prazos implementando gestão automatizada de riscos de TI, monitoramento contínuo e supervisão integrada de terceiros—reduzindo os custos de preparação para conformidade em 68%."
       },
       "case2": {
-        "title": "Redução dos Custos de Auditoria",
-        "description": "Uma seguradora reduziu os custos de conformidade em 63% através da geração automatizada de evidências e monitorização contínua da conformidade."
+        "title": "Relatórios Simplificados de Incidentes",
+        "description": "Um provedor de serviços de pagamento automatizou a classificação de incidentes maiores e fluxos de trabalho de relatórios, reduzindo o tempo de relatórios regulatórios de 4 horas para 15 minutos enquanto garantia conformidade consistente. Ao permitir colaboração em tempo real entre suas equipes de operações, segurança e conformidade em uma plataforma unificada, reduziram o tempo médio de resolução em 55%."
       },
       "case3": {
-        "title": "Melhoria na Tomada de Decisão",
-        "description": "Uma empresa de gestão de património melhorou as decisões operacionais com inteligência de risco em tempo real, prevenindo $4.2M em perdas potenciais."
+        "title": "Testes de Resiliência Aprimorados",
+        "description": "Uma empresa de investimentos transformou seu programa de testes de resiliência com testes automatizados contínuos e análise de cenários, reduzindo os custos anuais de testes em 71% enquanto excedia os requisitos regulatórios. A visibilidade multifuncional permitiu que equipes de negócios, TI e riscos alinhassem prioridades e coordenassem respostas de forma mais eficaz."
       }
     },
     "cta": {
       "chat": "Vamos Conversar"
     }
   },
-  "trust": {
-    "title": "Construído para",
-    "titleHighlight": "Confiança e Segurança",
-    "description": "Segurança e confiança estão no centro de tudo que fazemos. Theodora é projetada com segurança de nível financeiro desde o início.",
-    "features": {
-      "security": {
-        "title": "Segurança de Nível Empresarial",
-        "description": "Construído com design security-first, criptografia em repouso e em trânsito, e trilhas de auditoria abrangentes.",
-        "items": [
-          "Conformidade SOC 2",
-          "Alinhado com ISO 27001",
-          "Conformidade GDPR"
-        ]
-      },
-      "protection": {
-        "title": "Proteção de Dados",
-        "description": "Seus dados são protegidos com medidas de segurança e controles de acesso líderes do setor.",
-        "items": [
-          "Criptografia Ponta a Ponta",
-          "Controle de Acesso Baseado em Funções",
-          "Arquitetura Zero Trust"
-        ]
-      },
-      "compliance": {
-        "title": "Pronto para Conformidade",
-        "description": "Theodora ajuda você a manter conformidade com os principais frameworks regulatórios e padrões.",
-        "items": [
-          "Framework NIST",
-          "AML e KYC",
-          "Conformidade SOX"
-        ]
-      }
+  "capabilities": {
+    "headline1": "Capacidades Abrangentes",
+    "headline2": "de Resiliência",
+    "capability1": {
+      "title": "Framework de Gestão de Riscos de TI",
+      "feature1": "Identificação e avaliação abrangente de riscos",
+      "feature2": "Classificação e inventário de ativos de TI",
+      "feature3": "Estratégias e controles de mitigação de riscos",
+      "feature4": "Monitoramento e relatórios contínuos"
+    },
+    "capability2": {
+      "title": "Gestão e Relatórios de Incidentes",
+      "feature1": "Detecção em tempo real de incidentes maiores",
+      "feature2": "Fluxos de trabalho automatizados de notificação regulatória",
+      "feature3": "Análise de causa raiz e documentação",
+      "feature4": "Automação de revisão pós-incidente",
+      "feature5": "Coordenação multifuncional de resposta a incidentes",
+      "feature6": "Linha do tempo e contexto compartilhado do incidente para todos os stakeholders"
+    },
+    "capability3": {
+      "title": "Testes de Resiliência Digital",
+      "feature1": "Avaliações contínuas de vulnerabilidades",
+      "feature2": "Testes de resiliência baseados em cenários",
+      "feature3": "Testes de dependências de terceiros",
+      "feature4": "Suporte avançado para testes de penetração guiados por ameaças"
+    },
+    "capability4": {
+      "title": "Gestão de Riscos de Terceiros",
+      "feature1": "Monitoramento de provedores de serviços de TI",
+      "feature2": "Rastreamento de conformidade contratual",
+      "feature3": "Agregação de riscos de múltiplos fornecedores",
+      "feature4": "Documentação de estratégia de saída"
+    },
+    "capability5": {
+      "title": "Compartilhamento de Informações",
+      "feature1": "Integração de inteligência de ameaças",
+      "feature2": "Relatórios de incidentes entre entidades",
+      "feature3": "Conectividade com autoridades regulatórias",
+      "feature4": "Formatos padronizados de troca de dados"
     },
     "cta": {
-      "title": "Pronto para conversar sobre como proteger as suas operações financeiras?",
-      "description": "Inicie uma conversa para descobrir como a Theodora pode ajudá-lo a prevenir riscos e automatizar a conformidade.",
-      "button": "Vamos Conversar"
-    },
-    "trusted": {
-      "title": "Confiado por instituições financeiras em todo o mundo"
+      "button": "Agende uma Consulta"
     }
   },
+  "trust": {
+    "headline1": "Construída para",
+    "headline2": "Confiança e Segurança",
+    "subheadline": "Segurança e confiança estão no centro de tudo que fazemos. Theodora é projetada com segurança de nível financeiro desde o início.",
+    "feature1": {
+      "title": "Segurança de Nível Empresarial",
+      "description": "Construída com design que prioriza segurança, criptografia em repouso e em trânsito, e trilhas de auditoria abrangentes.",
+      "item1": "Conforme SOC 2",
+      "item2": "Alinhado com ISO 27001",
+      "item3": "Conforme GDPR"
+    },
+    "feature2": {
+      "title": "Proteção de Dados",
+      "description": "Seus dados são protegidos com medidas de segurança líderes do setor e controles de acesso.",
+      "item1": "Criptografia Ponta a Ponta",
+      "item2": "Controle de Acesso Baseado em Funções",
+      "item3": "Arquitetura Zero Trust"
+    },
+    "feature3": {
+      "title": "Pronto para Conformidade",
+      "description": "Theodora ajuda você a manter conformidade com os principais frameworks e padrões regulatórios.",
+      "item1": "Framework NIST",
+      "item2": "AML e KYC",
+      "item3": "Conformidade SOX"
+    },
+    "cta": {
+      "title": "Pronto para discutir a segurança de suas operações financeiras?",
+      "description": "Inicie uma conversa para ver como Theodora pode ajudá-lo a prevenir riscos e automatizar a conformidade.",
+      "button": "Vamos Conversar"
+    },
+    "trustedBy": "Confiada por instituições financeiras em todo o mundo"
+  },
   "finalCta": {
-    "title": "Proteja suas Operações.",
-    "titleHighlight": "Automatize a Conformidade.",
-    "description": "Agende sua demo hoje e descubra como Theodora pode transformar sua abordagem ao risco operacional e conformidade.",
-    "subheadline": "Inicie uma conversa hoje e descubra como a Theodora pode transformar a sua abordagem ao risco operacional e à conformidade.",
-    "button": "Vamos Conversar Hoje"
+    "headline1": "Alcance Conformidade com",
+    "headline2": "Confiança",
+    "subheadline": "Theodora fornece a plataforma abrangente que entidades financeiras precisam para atender requisitos regulatórios enquanto constroem resiliência operacional genuína.",
+    "button": "Vamos Conversar"
   },
   "footer": {
-    "description": "Inteligência de risco operacional em tempo real e garantia de conformidade automatizada para instituições financeiras.",
+    "description": "Inteligência de riscos operacionais em tempo real e garantia de conformidade automatizada para instituições financeiras.",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
     "company": {
       "title": "Empresa",
-      "links": ["Sobre", "Liderança", "Carreiras", "Imprensa", "Contato"]
+      "about": "Sobre Nós",
+      "leadership": "Liderança",
+      "careers": "Carreiras",
+      "press": "Imprensa",
+      "contact": "Contato"
     },
     "resources": {
       "title": "Recursos",
-      "links": ["Blog", "Casos de Sucesso", "Whitepapers", "Documentação", "Suporte"]
+      "blog": "Blog",
+      "caseStudies": "Casos de Estudo",
+      "whitepapers": "Whitepapers",
+      "documentation": "Documentação",
+      "support": "Suporte"
     },
     "contact": {
       "title": "Contato",
-      "email": "info@theodora.ai",
+      "email": "info@theodora.live",
       "phone": "+1 (954) 641-2290",
       "address": "66 West Flagler St. Ste. 901 Miami, Fl 33130"
     },
-    "legal": {
-      "copyright": "© {year} Theodora. Todos os direitos reservados.",
-      "links": {
-        "privacy": "Política de Privacidade",
-        "terms": "Termos de Serviço",
-        "cookies": "Cookies"
-      }
-    }
+    "copyright": "© {{year}} Theodora. Todos os direitos reservados.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Cookies"
   },
   "form": {
-    "title": "Vamos discutir suas necessidades",
+    "title": "Vamos falar sobre suas necessidades",
     "name": "Nome Completo",
     "email": "Email",
     "company": "Empresa",
@@ -395,254 +315,248 @@
     "error": "Ocorreu um erro. Por favor, tente novamente.",
     "required": "Campo obrigatório"
   },
-  "language": {
-    "en": "English",
-    "es": "Español",
-    "it": "Italiano",
-    "pt": "Português"
-  },
   "privacy": {
-    "title": "Privacy Policy",
-    "effectiveDateLabel": "Effective Date:",
+    "title": "Política de Privacidade",
+    "effectiveDateLabel": "Data de Vigência:",
     "section1": {
-      "title": "1. Introduction",
-      "paragraph1": "Welcome to Theodora (\"we\", \"us\", \"our\"). We are committed to protecting the privacy of our users (\"you\", \"your\"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website {websiteUrl} and use our operational risk intelligence and automated compliance platform (the \"Service\"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our Services.",
-      "paragraph2": "We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the \"Effective Date\" of this Privacy Policy."
+      "title": "1. Introdução",
+      "paragraph1": "Bem-vindo à Theodora (\"nós\", \"nosso\"). Estamos comprometidos em proteger a privacidade de nossos usuários (\"você\", \"seu\"). Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você visita nosso site {websiteUrl} e usa nossa plataforma de inteligência de riscos operacionais e conformidade automatizada (o \"Serviço\"). Por favor, leia esta política de privacidade cuidadosamente. Se você não concorda com os termos desta política de privacidade, por favor não acesse o site ou use nossos Serviços.",
+      "paragraph2": "Reservamo-nos o direito de fazer alterações a esta Política de Privacidade a qualquer momento e por qualquer motivo. Alertaremos você sobre quaisquer alterações atualizando a \"Data de Vigência\" desta Política de Privacidade."
     },
     "section2": {
-      "title": "2. Collection of Your Information",
-      "intro": "We may collect information about you in a variety of ways. The information we may collect via the Service includes:",
+      "title": "2. Coleta de Suas Informações",
+      "intro": "Podemos coletar informações sobre você de várias maneiras. As informações que podemos coletar através do Serviço incluem:",
       "item1": {
-        "title": "Personal Data:",
-        "description": "Personally identifiable information, such as your name, email address, phone number, job title, and company name, that you voluntarily give to us when you register with the Service or when you choose to participate in various activities related to the Service, such as requesting a demo or contacting us."
+        "title": "Dados Pessoais:",
+        "description": "Informações de identificação pessoal, como seu nome, endereço de e-mail, número de telefone, cargo e nome da empresa, que você fornece voluntariamente quando se registra no Serviço ou quando escolhe participar de várias atividades relacionadas ao Serviço, como solicitar uma demonstração ou nos contatar."
       },
       "item2": {
-        "title": "Derivative Data:",
-        "description": "Information our servers automatically collect when you access the Service, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Service."
+        "title": "Dados Derivados:",
+        "description": "Informações que nossos servidores coletam automaticamente quando você acessa o Serviço, como seu endereço IP, tipo de navegador, sistema operacional, horários de acesso e as páginas que você visualizou diretamente antes e depois de acessar o Serviço."
       },
       "item3": {
-        "title": "Financial Data:",
-        "description": "We do not collect financial information directly. If payments are required for the Service, they will be processed through a secure third-party payment processor."
+        "title": "Dados Financeiros:",
+        "description": "Não coletamos informações financeiras diretamente. Se pagamentos forem necessários para o Serviço, eles serão processados através de um processador de pagamentos terceirizado seguro."
       },
       "item4": {
-        "title": "Platform Usage Data:",
-        "description": "Information about how you use the Theodora platform, including interactions with features, settings, and operational data (anonymized or aggregated where possible)."
+        "title": "Dados de Uso da Plataforma:",
+        "description": "Informações sobre como você usa a plataforma Theodora, incluindo interações com recursos, configurações e dados operacionais (anonimizados ou agregados quando possível)."
       },
       "item5": {
-        "title": "Cookies and Tracking Technologies:",
-        "description": "We may use cookies, web beacons, tracking pixels, and other tracking technologies on the Service to help customize the Service and improve your experience. Please refer to our Cookie Policy for more details."
+        "title": "Cookies e Tecnologias de Rastreamento:",
+        "description": "Podemos usar cookies, web beacons, pixels de rastreamento e outras tecnologias de rastreamento no Serviço para ajudar a personalizar o Serviço e melhorar sua experiência. Por favor, consulte nossa Política de Cookies para mais detalhes."
       }
     },
     "section3": {
-      "title": "3. Use of Your Information",
-      "intro": "Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Service to:",
-      "item1": "Create and manage your account.",
-      "item2": "Provide and administer our Services.",
-      "item3": "Process transactions and send related information, including purchase confirmations and invoices.",
-      "item4": "Communicate with you about your account or the Service, including responding to your comments, questions, and requests; provide customer service and support.",
-      "item5": "Send you administrative, technical, or marketing communications.",
-      "item6": "Monitor and analyze usage and trends to improve your experience with the Service.",
-      "item7": "Enhance the functionality and security of our Service, including fraud prevention.",
-      "item8": "Comply with applicable legal and regulatory requirements.",
-      "item9": "Perform other business activities as needed."
+      "title": "3. Uso de Suas Informações",
+      "intro": "Ter informações precisas sobre você nos permite fornecer uma experiência suave, eficiente e personalizada. Especificamente, podemos usar as informações coletadas sobre você através do Serviço para:",
+      "item1": "Criar e gerenciar sua conta.",
+      "item2": "Fornecer e administrar nossos Serviços.",
+      "item3": "Processar transações e enviar informações relacionadas, incluindo confirmações de compra e faturas.",
+      "item4": "Comunicar com você sobre sua conta ou o Serviço, incluindo responder a seus comentários, perguntas e solicitações; fornecer atendimento e suporte ao cliente.",
+      "item5": "Enviar comunicações administrativas, técnicas ou de marketing.",
+      "item6": "Monitorar e analisar o uso e tendências para melhorar sua experiência com o Serviço.",
+      "item7": "Melhorar a funcionalidade e segurança de nosso Serviço, incluindo prevenção de fraudes.",
+      "item8": "Cumprir os requisitos legais e regulatórios aplicáveis.",
+      "item9": "Realizar outras atividades comerciais conforme necessário."
     },
     "section4": {
-      "title": "4. Disclosure of Your Information",
-      "intro": "We may share information we have collected about you in certain situations. Your information may be disclosed as follows:",
+      "title": "4. Divulgação de Suas Informações",
+      "intro": "Podemos compartilhar informações que coletamos sobre você em certas situações. Suas informações podem ser divulgadas da seguinte forma:",
       "item1": {
-        "title": "By Law or to Protect Rights:",
-        "description": "If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation."
+        "title": "Por Lei ou para Proteger Direitos:",
+        "description": "Se acreditarmos que a divulgação de informações sobre você é necessária para responder a processos legais, investigar ou remediar possíveis violações de nossas políticas, ou proteger os direitos, propriedade e segurança de outros, podemos compartilhar suas informações conforme permitido ou exigido por qualquer lei, regra ou regulamento aplicável."
       },
       "item2": {
-        "title": "Third-Party Service Providers:",
-        "description": "We may share your information with third parties that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance."
+        "title": "Provedores de Serviços Terceirizados:",
+        "description": "Podemos compartilhar suas informações com terceiros que realizam serviços para nós ou em nosso nome, incluindo processamento de pagamentos, análise de dados, entrega de e-mail, serviços de hospedagem, atendimento ao cliente e assistência de marketing."
       },
       "item3": {
-        "title": "Business Transfers:",
-        "description": "We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+        "title": "Transferências Comerciais:",
+        "description": "Podemos compartilhar ou transferir suas informações em conexão com, ou durante negociações de, qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de todo ou parte de nosso negócio para outra empresa."
       },
       "item4": {
-        "title": "With Your Consent:",
-        "description": "We may disclose your personal information for any other purpose with your consent."
+        "title": "Com Seu Consentimento:",
+        "description": "Podemos divulgar suas informações pessoais para qualquer outro propósito com seu consentimento."
       }
     },
     "section5": {
-      "title": "5. Security of Your Information",
-      "paragraph1": "We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse."
+      "title": "5. Segurança de Suas Informações",
+      "paragraph1": "Usamos medidas de segurança administrativas, técnicas e físicas para ajudar a proteger suas informações pessoais. Embora tenhamos tomado medidas razoáveis para proteger as informações pessoais que você nos fornece, esteja ciente de que, apesar de nossos esforços, nenhuma medida de segurança é perfeita ou impenetrável, e nenhum método de transmissão de dados pode ser garantido contra qualquer interceptação ou outro tipo de uso indevido."
     },
     "section6": {
-      "title": "6. Data Retention",
-      "paragraph1": "We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements)."
+      "title": "6. Retenção de Dados",
+      "paragraph1": "Manteremos suas informações pessoais apenas pelo tempo necessário para os propósitos estabelecidos nesta política de privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei (como requisitos fiscais, contábeis ou outros requisitos legais)."
     },
     "section7": {
-      "title": "7. Your Privacy Rights",
-      "intro": "Depending on your location, you may have certain rights regarding your personal information, such as:",
-      "item1": "The right to access – You have the right to request copies of your personal data.",
-      "item2": "The right to rectification – You have the right to request that we correct any information you believe is inaccurate or incomplete.",
-      "item3": "The right to erasure – You have the right to request that we erase your personal data, under certain conditions.",
-      "item4": "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.",
-      "item5": "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.",
-      "item6": "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.",
-      "outro": "If you would like to exercise any of these rights, please contact us using the contact information provided below."
+      "title": "7. Seus Direitos de Privacidade",
+      "intro": "Dependendo de sua localização, você pode ter certos direitos em relação às suas informações pessoais, tais como:",
+      "item1": "O direito de acesso - Você tem o direito de solicitar cópias de seus dados pessoais.",
+      "item2": "O direito de retificação - Você tem o direito de solicitar que corrijamos qualquer informação que você acredite estar incorreta ou incompleta.",
+      "item3": "O direito ao apagamento - Você tem o direito de solicitar que apaguemos seus dados pessoais, sob certas condições.",
+      "item4": "O direito de restringir o processamento - Você tem o direito de solicitar que restrinjamos o processamento de seus dados pessoais, sob certas condições.",
+      "item5": "O direito de se opor ao processamento - Você tem o direito de se opor ao nosso processamento de seus dados pessoais, sob certas condições.",
+      "item6": "O direito à portabilidade de dados - Você tem o direito de solicitar que transfiramos os dados que coletamos para outra organização, ou diretamente para você, sob certas condições.",
+      "outro": "Se você deseja exercer qualquer um desses direitos, entre em contato conosco usando as informações de contato fornecidas abaixo."
     },
     "section8": {
-      "title": "8. Policy for Children",
-      "paragraph1": "We do not knowingly solicit information from or market to children under the age of 13 (or the applicable age in your jurisdiction). If you become aware of any data we have collected from children under that age, please contact us."
+      "title": "8. Política para Crianças",
+      "paragraph1": "Não solicitamos conscientemente informações de crianças menores de 13 anos (ou a idade aplicável em sua jurisdição) nem comercializamos para elas. Se você tomar conhecimento de quaisquer dados que coletamos de crianças menores dessa idade, entre em contato conosco."
     },
     "section9": {
-      "title": "9. International Transfers",
-      "paragraph1": "Your information, including personal information, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy."
+      "title": "9. Transferências Internacionais",
+      "paragraph1": "Suas informações, incluindo informações pessoais, podem ser transferidas e mantidas em computadores localizados fora de seu estado, província, país ou outra jurisdição governamental onde as leis de proteção de dados podem diferir daquelas de sua jurisdição. Tomaremos todas as medidas razoavelmente necessárias para garantir que seus dados sejam tratados de forma segura e de acordo com esta Política de Privacidade."
     },
     "section10": {
-      "title": "10. Contact Us",
-      "intro": "If you have questions or comments about this Privacy Policy, please contact us at:",
+      "title": "10. Entre em Contato",
+      "intro": "Se você tiver perguntas ou comentários sobre esta Política de Privacidade, entre em contato conosco em:",
       "address": {
         "line1": "Theodora",
-        "line2": "{contactAddress}", 
+        "line2": "{contactAddress}",
         "email": "Email: {contactEmail}",
-        "phone": "Phone: {contactPhone}"
+        "phone": "Telefone: {contactPhone}"
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "effectiveDateLabel": "Effective Date:",
+    "title": "Termos de Serviço",
+    "effectiveDateLabel": "Data de Vigência:",
     "section1": {
-      "title": "1. Agreement to Terms",
-      "paragraph1": "These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (\"you\") and Theodora (\"we,\" \"us,\" or \"our\"), concerning your access to and use of the {websiteUrl} website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the \"Site\") and our operational risk intelligence and automated compliance platform (the \"Service\").",
-      "paragraph2": "You agree that by accessing the Site and/or the Service, you have read, understood, and agreed to be bound by all of these Terms of Service. If you do not agree with all of these Terms of Service, then you are expressly prohibited from using the Site and the Service and you must discontinue use immediately.",
-      "paragraph3": "Supplemental terms and conditions or documents that may be posted on the Site or Service from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Service at any time and for any reason."
+      "title": "1. Acordo com os Termos",
+      "paragraph1": "Estes Termos de Serviço constituem um acordo legalmente vinculante feito entre você, seja pessoalmente ou em nome de uma entidade (\"você\") e Theodora (\"nós\", \"nosso\"), em relação ao seu acesso e uso do site {websiteUrl}, bem como qualquer outra forma de mídia, canal de mídia, site móvel ou aplicativo móvel relacionado, vinculado ou de outra forma conectado (coletivamente, o \"Site\") e nossa plataforma de inteligência de riscos operacionais e conformidade automatizada (o \"Serviço\").",
+      "paragraph2": "Você concorda que ao acessar o Site e/ou o Serviço, você leu, entendeu e concorda em estar vinculado por todos estes Termos de Serviço. Se você não concorda com todos estes Termos de Serviço, então você está expressamente proibido de usar o Site e o Serviço e deve descontinuar o uso imediatamente.",
+      "paragraph3": "Termos e condições suplementares ou documentos que possam ser publicados no Site ou Serviço de tempos em tempos são expressamente incorporados aqui por referência. Reservamo-nos o direito, a nosso exclusivo critério, de fazer alterações ou modificações a estes Termos de Serviço a qualquer momento e por qualquer motivo."
     },
     "section2": {
-      "title": "2. Service Description",
-      "paragraph1": "Theodora provides an operational risk intelligence platform designed for financial institutions. Our Service offers tools for risk assessment, compliance monitoring, automated reporting, and incident management to help organizations manage operational risks and meet regulatory requirements."
+      "title": "2. Descrição do Serviço",
+      "paragraph1": "Theodora fornece uma plataforma de inteligência de riscos operacionais projetada para instituições financeiras. Nosso Serviço oferece ferramentas para avaliação de riscos, monitoramento de conformidade, relatórios automatizados e gestão de incidentes para ajudar organizações a gerenciar riscos operacionais e atender requisitos regulatórios."
     },
     "section3": {
-      "title": "3. User Eligibility and Account",
-      "paragraph1": "The Service is intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Service.",
-      "paragraph2": "You may be required to register with the Service. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable."
+      "title": "3. Elegibilidade do Usuário e Conta",
+      "paragraph1": "O Serviço é destinado a usuários que tenham pelo menos 18 anos. Pessoas menores de 18 anos não estão autorizadas a usar ou se registrar no Serviço.",
+      "paragraph2": "Você pode ser solicitado a se registrar no Serviço. Você concorda em manter sua senha confidencial e será responsável por todo o uso de sua conta e senha. Reservamo-nos o direito de remover, reivindicar ou alterar um nome de usuário que você selecionar se determinarmos, a nosso exclusivo critério, que tal nome de usuário é inapropriado, obsceno ou de outra forma objetável."
     },
     "section4": {
-      "title": "4. User Representations",
-      "intro": "By using the Service, you represent and warrant that:",
-      "item1": "All registration information you submit will be true, accurate, current, and complete;",
-      "item2": "You will maintain the accuracy of such information and promptly update such registration information as necessary;",
-      "item3": "You have the legal capacity and you agree to comply with these Terms of Service;",
-      "item4": "You will not access the Service through automated or non-human means, whether through a bot, script, or otherwise;",
-      "item5": "You will not use the Service for any illegal or unauthorized purpose;",
-      "item6": "Your use of the Service will not violate any applicable law or regulation."
+      "title": "4. Declarações do Usuário",
+      "intro": "Ao usar o Serviço, você declara e garante que:",
+      "item1": "Todas as informações de registro que você enviar serão verdadeiras, precisas, atuais e completas;",
+      "item2": "Você manterá a precisão de tais informações e atualizará prontamente tais informações de registro conforme necessário;",
+      "item3": "Você tem capacidade legal e concorda em cumprir estes Termos de Serviço;",
+      "item4": "Você não acessará o Serviço através de meios automatizados ou não humanos, seja através de bot, script ou de outra forma;",
+      "item5": "Você não usará o Serviço para qualquer propósito ilegal ou não autorizado;",
+      "item6": "Seu uso do Serviço não violará qualquer lei ou regulamento aplicável."
     },
     "section5": {
-      "title": "5. Prohibited Activities",
-      "intro": "You may not access or use the Service for any purpose other than that for which we make the Service available. The Service may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. As a user of the Service, you agree not to:",
-      "item1": "Systematically retrieve data or other content from the Service to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.",
-      "item2": "Make any unauthorized use of the Service, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.",
-      "item3": "Circumvent, disable, or otherwise interfere with security-related features of the Service.",
-      "item4": "Engage in unauthorized framing of or linking to the Service.",
-      "item5": "Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.",
-      "item6": "Interfere with, disrupt, or create an undue burden on the Service or the networks or services connected to the Service.",
-      "item7": "Use any information obtained from the Service in order to harass, abuse, or harm another person.",
-      "item8": "Use the Service as part of any effort to compete with us or otherwise use the Service and/or the Content for any revenue-generating endeavor or commercial enterprise.",
-      "item9": "Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Service.",
-      "item10": "Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Service to you.",
-      "item11": "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material that interferes with any party's uninterrupted use and enjoyment of the Service or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Service.",
-      "item12": "Use the Service in a manner inconsistent with any applicable laws or regulations."
+      "title": "5. Atividades Proibidas",
+      "intro": "Você não pode acessar ou usar o Serviço para qualquer propósito além daquele para o qual disponibilizamos o Serviço. O Serviço não pode ser usado em conexão com quaisquer empreendimentos comerciais, exceto aqueles que são especificamente endossados ou aprovados por nós. Como usuário do Serviço, você concorda em não:",
+      "item1": "Recuperar sistematicamente dados ou outro conteúdo do Serviço para criar ou compilar, direta ou indiretamente, uma coleção, compilação, banco de dados ou diretório sem permissão por escrito de nós.",
+      "item2": "Fazer qualquer uso não autorizado do Serviço, incluindo coletar nomes de usuário e/ou endereços de e-mail de usuários por meios eletrônicos ou outros para enviar e-mails não solicitados, ou criar contas de usuário por meios automatizados ou sob falsos pretextos.",
+      "item3": "Contornar, desabilitar ou de outra forma interferir com recursos relacionados à segurança do Serviço.",
+      "item4": "Envolver-se em enquadramento não autorizado ou vinculação ao Serviço.",
+      "item5": "Enganar, fraudar ou enganar a nós e outros usuários, especialmente em qualquer tentativa de aprender informações sensíveis da conta, como senhas de usuário.",
+      "item6": "Interferir, interromper ou criar uma carga indevida no Serviço ou nas redes ou serviços conectados ao Serviço.",
+      "item7": "Usar qualquer informação obtida do Serviço para assediar, abusar ou prejudicar outra pessoa.",
+      "item8": "Usar o Serviço como parte de qualquer esforço para competir conosco ou usar o Serviço e/ou o Conteúdo para qualquer empreendimento gerador de receita ou empresa comercial.",
+      "item9": "Decifrar, descompilar, desmontar ou fazer engenharia reversa de qualquer software que compõe ou de alguma forma faz parte do Serviço.",
+      "item10": "Assediar, incomodar, intimidar ou ameaçar qualquer um de nossos funcionários ou agentes envolvidos em fornecer qualquer parte do Serviço a você.",
+      "item11": "Carregar ou transmitir (ou tentar carregar ou transmitir) vírus, cavalos de Troia ou outro material que interfira com o uso e aproveitamento ininterruptos de qualquer parte do Serviço ou modifique, prejudique, interrompa, altere ou interfira com o uso, recursos, funções, operação ou manutenção do Serviço.",
+      "item12": "Usar o Serviço de maneira inconsistente com quaisquer leis ou regulamentos aplicáveis."
     },
     "section6": {
-      "title": "6. Intellectual Property Rights",
-      "paragraph1": "Unless otherwise indicated, the Service is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site and the Service (collectively, the \"Content\") and the trademarks, service marks, and logos contained therein (the \"Marks\") are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights."
+      "title": "6. Direitos de Propriedade Intelectual",
+      "paragraph1": "A menos que indicado de outra forma, o Serviço é nossa propriedade exclusiva e todo o código-fonte, bancos de dados, funcionalidade, software, designs de sites, áudio, vídeo, texto, fotografias e gráficos no Site e no Serviço (coletivamente, o \"Conteúdo\") e as marcas comerciais, marcas de serviço e logotipos nele contidos (as \"Marcas\") são de propriedade ou controlados por nós ou licenciados para nós, e são protegidos por leis de direitos autorais e marcas comerciais e vários outros direitos de propriedade intelectual."
     },
     "section7": {
-      "title": "7. Term and Termination",
-      "paragraph1": "These Terms of Service shall remain in full force and effect while you use the Service. Without limiting any other provision of these terms, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the service (including blocking certain ip addresses), to any person for any reason or for no reason."
+      "title": "7. Prazo e Rescisão",
+      "paragraph1": "Estes Termos de Serviço permanecerão em pleno vigor e efeito enquanto você usar o Serviço. Sem limitar qualquer outra disposição destes termos, reservamo-nos o direito, a nosso exclusivo critério e sem aviso prévio ou responsabilidade, de negar acesso e uso do serviço (incluindo bloquear certos endereços IP), a qualquer pessoa por qualquer motivo ou sem motivo."
     },
     "section8": {
-      "title": "8. Modifications and Interruptions",
-      "paragraph1": "We reserve the right to change, modify, or remove the contents of the Service at any time or for any reason at our sole discretion without notice. We also reserve the right to modify or discontinue all or part of the Service without notice at any time.",
-      "paragraph2": "We cannot guarantee the Service will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Service, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Service at any time or for any reason without notice to you."
+      "title": "8. Modificações e Interrupções",
+      "paragraph1": "Reservamo-nos o direito de alterar, modificar ou remover o conteúdo do Serviço a qualquer momento ou por qualquer motivo a nosso exclusivo critério sem aviso prévio. Também reservamos o direito de modificar ou descontinuar todo ou parte do Serviço sem aviso prévio a qualquer momento.",
+      "paragraph2": "Não podemos garantir que o Serviço estará disponível o tempo todo. Podemos experimentar problemas de hardware, software ou outros ou precisar realizar manutenção relacionada ao Serviço, resultando em interrupções, atrasos ou erros. Reservamo-nos o direito de alterar, revisar, atualizar, suspender, descontinuar ou de outra forma modificar o Serviço a qualquer momento ou por qualquer motivo sem aviso prévio."
     },
     "section9": {
-      "title": "9. Governing Law",
-      "paragraph1": "These Terms of Service and your use of the Service are governed by and construed in accordance with the laws of {jurisdiction}, applicable to agreements made and to be entirely performed within {jurisdiction}, without regard to its conflict of law principles."
+      "title": "9. Lei Aplicável",
+      "paragraph1": "Estes Termos de Serviço e seu uso do Serviço são regidos e interpretados de acordo com as leis de {jurisdiction}, aplicáveis a acordos feitos e a serem executados inteiramente dentro de {jurisdiction}, sem consideração aos seus princípios de conflito de leis."
     },
     "section10": {
-      "title": "10. Dispute Resolution",
-      "paragraph1": "Any legal action of whatever nature brought by either you or us (collectively, the \"Parties\" and individually, a \"Party\") shall be commenced or prosecuted in the state and federal courts located in {cityJurisdiction}, {jurisdiction}, and the Parties hereby consent to, and waive all defenses of lack of personal jurisdiction and forum non conveniens with respect to venue and jurisdiction in such state and federal courts."
+      "title": "10. Resolução de Disputas",
+      "paragraph1": "Qualquer ação legal de qualquer natureza movida por você ou por nós (coletivamente, as \"Partes\" e individualmente, uma \"Parte\") será iniciada ou processada nos tribunais estaduais e federais localizados em {cityJurisdiction}, {jurisdiction}, e as Partes por este meio consentem e renunciam a todas as defesas de falta de jurisdição pessoal e foro não conveniente com respeito ao local e jurisdição em tais tribunais estaduais e federais."
     },
     "section11": {
-      "title": "11. Disclaimer",
-      "paragraph1": "THE SERVICE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SERVICE WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT."
+      "title": "11. Isenção de Responsabilidade",
+      "paragraph1": "O SERVIÇO É FORNECIDO COMO ESTÁ E CONFORME DISPONÍVEL. VOCÊ CONCORDA QUE SEU USO DO SERVIÇO SERÁ POR SUA CONTA E RISCO. NA MEDIDA MÁXIMA PERMITIDA POR LEI, NÓS RENUNCIAMOS A TODAS AS GARANTIAS, EXPRESSAS OU IMPLÍCITAS, EM CONEXÃO COM O SERVIÇO E SEU USO DELE, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO PARA UM PROPÓSITO ESPECÍFICO E NÃO VIOLAÇÃO."
     },
     "section12": {
-      "title": "12. Limitation of Liability",
-      "paragraph1": "IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+      "title": "12. Limitação de Responsabilidade",
+      "paragraph1": "EM NENHUMA CIRCUNSTÂNCIA NÓS OU NOSSOS DIRETORES, FUNCIONÁRIOS OU AGENTES SEREMOS RESPONSÁVEIS PERANTE VOCÊ OU QUALQUER TERCEIRO POR QUAISQUER DANOS DIRETOS, INDIRETOS, CONSEQUENCIAIS, EXEMPLARES, INCIDENTAIS, ESPECIAIS OU PUNITIVOS, INCLUINDO LUCRO PERDIDO, RECEITA PERDIDA, PERDA DE DADOS OU OUTROS DANOS DECORRENTES DE SEU USO DO SERVIÇO, MESMO QUE TENHAMOS SIDO AVISADOS DA POSSIBILIDADE DE TAIS DANOS."
     },
     "section13": {
-      "title": "13. Indemnification",
-      "paragraph1": "You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of: (1) use of the Service; (2) breach of these Terms of Service; (3) any breach of your representations and warranties set forth in these Terms of Service; (4) your violation of the rights of a third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward any other user of the Service with whom you connected via the Service."
+      "title": "13. Indenização",
+      "paragraph1": "Você concorda em defender, indenizar e isentar de responsabilidade a nós, incluindo nossas subsidiárias, afiliadas e todos os nossos respectivos diretores, agentes, parceiros e funcionários, de e contra qualquer perda, dano, responsabilidade, reivindicação ou demanda, incluindo honorários e despesas razoáveis de advogados, feitos por qualquer terceiro devido a ou decorrentes de: (1) uso do Serviço; (2) violação destes Termos de Serviço; (3) qualquer violação de suas declarações e garantias estabelecidas nestes Termos de Serviço; (4) sua violação dos direitos de terceiros, incluindo mas não limitado a direitos de propriedade intelectual; ou (5) qualquer ato prejudicial manifesto contra qualquer outro usuário do Serviço com quem você se conectou através do Serviço."
     },
     "section14": {
-      "title": "14. Contact Us",
-      "intro": "In order to resolve a complaint regarding the Service or to receive further information regarding use of the Service, please contact us at:",
+      "title": "14. Entre em Contato",
+      "intro": "Para resolver uma reclamação relacionada ao Serviço ou para receber mais informações sobre o uso do Serviço, entre em contato conosco em:",
       "address": {
         "line1": "Theodora",
-        "email": "{contactEmail}" 
+        "email": "{contactEmail}"
       }
     }
   },
   "cookies": {
-    "title": "Cookie Policy",
-    "effectiveDateLabel": "Effective Date:",
+    "title": "Política de Cookies",
+    "effectiveDateLabel": "Data de Vigência:",
     "section1": {
-      "title": "1. Introduction",
-      "paragraph1": "This Cookie Policy explains how Theodora (\"we\", \"us\", and \"our\") uses cookies and similar technologies to recognize you when you visit our website at {websiteUrl} (\"Website\"). It explains what these technologies are and why we use them, as well as your rights to control our use of them."
+      "title": "1. Introdução",
+      "paragraph1": "Esta Política de Cookies explica como Theodora (\"nós\", \"nosso\") usa cookies e tecnologias similares para reconhecê-lo quando você visita nosso site em {websiteUrl} (\"Site\"). Ela explica o que são essas tecnologias e por que as usamos, bem como seus direitos de controlar nosso uso delas."
     },
     "section2": {
-      "title": "2. What are cookies?",
-      "paragraph1": "Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information.",
-      "paragraph2": "Cookies set by the website owner (in this case, Theodora) are called \"first-party cookies\". Cookies set by parties other than the website owner are called \"third-party cookies\". Third-party cookies enable third-party features or functionality to be provided on or through the website (e.g., advertising, interactive content, and analytics)."
+      "title": "2. O que são cookies?",
+      "paragraph1": "Cookies são pequenos arquivos de dados que são colocados em seu computador ou dispositivo móvel quando você visita um site. Cookies são amplamente usados pelos proprietários de sites para fazer seus sites funcionarem, ou funcionarem de forma mais eficiente, bem como para fornecer informações de relatórios.",
+      "paragraph2": "Cookies definidos pelo proprietário do site (neste caso, Theodora) são chamados de \"cookies próprios\". Cookies definidos por partes diferentes do proprietário do site são chamados de \"cookies de terceiros\". Cookies de terceiros habilitam recursos ou funcionalidades de terceiros a serem fornecidos no ou através do site (por exemplo, publicidade, conteúdo interativo e análises)."
     },
     "section3": {
-      "title": "3. Why do we use cookies?",
-      "intro": "We use first-party and third-party cookies for several reasons. Some cookies are required for technical reasons in order for our Website to operate, and we refer to these as \"essential\" or \"strictly necessary\" cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Online Properties. Third parties serve cookies through our Website for advertising, analytics, and other purposes. This is described in more detail below:",
+      "title": "3. Por que usamos cookies?",
+      "intro": "Usamos cookies próprios e de terceiros por várias razões. Alguns cookies são necessários por razões técnicas para que nosso Site funcione, e nos referimos a estes como cookies \"essenciais\" ou \"estritamente necessários\". Outros cookies também nos permitem rastrear e direcionar os interesses de nossos usuários para melhorar a experiência em nossas Propriedades Online. Terceiros servem cookies através do nosso Site para publicidade, análises e outros propósitos. Isso é descrito em mais detalhes abaixo:",
       "item1": {
-        "title": "Essential Website Cookies:",
-        "description": "These cookies are strictly necessary to provide you with services available through our Website and to use some of its features, such as access to secure areas."
+        "title": "Cookies Essenciais do Site:",
+        "description": "Estes cookies são estritamente necessários para fornecer a você os serviços disponíveis através do nosso Site e para usar algumas de suas funcionalidades, como acesso a áreas seguras."
       },
       "item2": {
-        "title": "Performance and Functionality Cookies:",
-        "description": "These cookies are used to enhance the performance and functionality of our Website but are non-essential to their use. However, without these cookies, certain functionality may become unavailable."
+        "title": "Cookies de Desempenho e Funcionalidade:",
+        "description": "Estes cookies são usados para melhorar o desempenho e a funcionalidade do nosso Site, mas não são essenciais para seu uso. No entanto, sem esses cookies, certas funcionalidades podem se tornar indisponíveis."
       },
       "item3": {
-        "title": "Analytics and Customization Cookies:",
-        "description": "These cookies collect information that is used either in aggregate form to help us understand how our Website is being used or how effective our marketing campaigns are, or to help us customize our Website for you."
+        "title": "Cookies de Análises e Personalização:",
+        "description": "Estes cookies coletam informações que são usadas de forma agregada para nos ajudar a entender como nosso Site está sendo usado ou quão eficazes são nossas campanhas de marketing, ou para nos ajudar a personalizar nosso Site para você."
       },
       "item4": {
-        "title": "Third-Party Cookies:",
-        "description": "We may partner with third-party companies to manage our advertising on other sites or to analyze site usage. These third parties may use cookies or similar technologies to gather information about your activities on this site and other sites in order to provide you advertising based upon your browsing activities and interests, or to analyze site usage."
+        "title": "Cookies de Terceiros:",
+        "description": "Podemos fazer parcerias com empresas terceiras para gerenciar nossa publicidade em outros sites ou para analisar o uso do site. Esses terceiros podem usar cookies ou tecnologias similares para coletar informações sobre suas atividades neste site e em outros sites, a fim de fornecer a você publicidade baseada em suas atividades e interesses de navegação, ou para analisar o uso do site."
       }
     },
     "section4": {
-      "title": "4. How can you control cookies?",
-      "paragraph1": "You have the right to decide whether to accept or reject cookies. You can exercise your cookie rights by setting your preferences in your web browser.",
-      "paragraph2": "Most web browsers allow some control of most cookies through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit www.aboutcookies.org or www.allaboutcookies.org.",
-      "paragraph3": "You can usually find these settings in the 'options' or 'preferences' menu of your browser. To understand these settings, the following links may be helpful, or you can use the 'Help' option in your browser for more details:",
-      "browserSettingsLinksIntro": "Cookie settings in popular browsers:",
-      "linkChrome": "Cookie settings in Chrome",
-      "linkFirefox": "Cookie settings in Firefox",
-      "linkSafari": "Cookie settings in Safari",
-      "linkEdge": "Cookie settings in Edge",
-      "linkOpera": "Cookie settings in Opera",
-      "paragraph4": "To opt out of being tracked by Google Analytics across all websites, visit http://tools.google.com/dlpage/gaoptout.",
-      "paragraph5": "Please note that if you choose to reject cookies, you may still use our website, though your access to some functionality and areas of our website may be restricted."
+      "title": "4. Como você pode controlar os cookies?",
+      "paragraph1": "Você tem o direito de decidir se aceita ou rejeita cookies. Você pode exercer seus direitos de cookies definindo suas preferências em seu navegador da web.",
+      "paragraph2": "A maioria dos navegadores da web permite algum controle da maioria dos cookies através das configurações do navegador. Para saber mais sobre cookies, incluindo como ver quais cookies foram definidos e como gerenciá-los e excluí-los, visite www.aboutcookies.org ou www.allaboutcookies.org.",
+      "paragraph3": "Você geralmente pode encontrar essas configurações no menu 'opções' ou 'preferências' do seu navegador. Para entender essas configurações, os seguintes links podem ser úteis, ou você pode usar a opção 'Ajuda' em seu navegador para mais detalhes:",
+      "browserSettingsLinksIntro": "Configurações de cookies em navegadores populares:",
+      "linkChrome": "Configurações de cookies no Chrome",
+      "linkFirefox": "Configurações de cookies no Firefox",
+      "linkSafari": "Configurações de cookies no Safari",
+      "linkEdge": "Configurações de cookies no Edge",
+      "linkOpera": "Configurações de cookies no Opera",
+      "paragraph4": "Para optar por não ser rastreado pelo Google Analytics em todos os sites, visite http://tools.google.com/dlpage/gaoptout.",
+      "paragraph5": "Observe que se você optar por rejeitar cookies, ainda poderá usar nosso site, embora seu acesso a algumas funcionalidades e áreas de nosso site possa ser restrito."
     },
     "section5": {
-      "title": "5. Changes to this Cookie Policy",
-      "paragraph1": "We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal, or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies."
+      "title": "5. Alterações a esta Política de Cookies",
+      "paragraph1": "Podemos atualizar esta Política de Cookies de tempos em tempos para refletir, por exemplo, alterações nos cookies que usamos ou por outras razões operacionais, legais ou regulatórias. Portanto, revise regularmente esta Política de Cookies para se manter informado sobre nosso uso de cookies e tecnologias relacionadas."
     },
     "section6": {
-      "title": "6. Contact Us",
-      "intro": "If you have any questions about our use of cookies or other technologies, please email us at:",
+      "title": "6. Entre em Contato",
+      "intro": "Se você tiver alguma dúvida sobre nosso uso de cookies ou outras tecnologias, envie-nos um e-mail para:",
       "address": {
         "email": "{contactEmail}"
       }

@@ -15,158 +15,220 @@
   "hero": {
     "headline1": "Stop Reacting.",
     "headline2": "Start Preventing Operational Risk.",
-    "subheadline": "Real-time operational risk management platform and automated intelligence that positively impacts financial firms and organizations powered by Observability and AI.",
+    "subheadline": "Real-time operational resilience platform with automated intelligence that helps financial entities proactively manage IT and operational risks.",
     "cta": {
       "chat": "Let's Chat",
       "learnMore": "Learn More"
     },
     "feature1": {
       "title": "Unified Observability",
-      "description": "Complete visibility across your entire IT and operational landscape in real-time."
+      "description": "Complete visibility across your entire IT infrastructure and operational landscape in real-time for enhanced resilience."
     },
     "feature2": {
       "title": "AI-Powered Intelligence",
-      "description": "Predictive analytics and anomaly detection to identify risks before they impact your business."
+      "description": "Predictive analytics and anomaly detection to identify IT risks and vulnerabilities before they impact your business operations."
     },
     "feature3": {
+      "title": "Collaborative Resolution",
+      "description": "Break down silos and enable IT, security, compliance, and business teams to work together on a single platform for faster, more effective risk resolution."
+    },
+    "feature4": {
       "title": "Automated Compliance",
-      "description": "Code-native compliance assurance with automatic evidence generation and reporting."
+      "description": "Built-in compliance assurance with automatic evidence generation, IT risk management documentation, and regulatory reporting."
     }
   },
   "problem": {
-    "headline1": "Financial Firms & Organizations Face",
-    "headline2": "Costly Challenges",
-    "subheadline": "In today's complex financial landscape, operational risks and compliance burdens continue to grow, leading to significant financial and reputational damage.",
+    "headline1": "Financial Entities Face Growing",
+    "headline2": "Digital Resilience Challenges",
+    "subheadline": "Financial entities must demonstrate robust IT risk management, incident response capabilities, and operational resilience to meet evolving regulatory requirements and protect their business.",
     "stat1": {
-      "title": "Massive Financial Losses",
-      "description": "Financial firms suffer billions in direct losses from lack of operational visibility due to failures, errors, and fraud that go undetected until it's too late.",
-      "value": "$70B",
-      "valueSuffix": "+",
-      "label": "Annual global losses from events not managed for operational risk"
+      "title": "Critical IT Incidents",
+      "description": "Financial entities experience severe disruptions from IT failures, cyber threats, and third-party dependencies that compromise service delivery.",
+      "value": "10",
+      "valueSuffix": "%",
+      "label": "Maximum penalties of global turnover for regulatory non-compliance"
     },
     "stat2": {
-      "title": "Cybercrime Costs in Digital Payments",
-      "description": "A significant portion is related to financial fraud and data theft impacting digital payments.",
-      "value": "$9.5T",
-      "valueSuffix": "+",
-      "label": "Estimated global costs of cybercrime damages in 2024."
+      "title": "Third-Party IT Dependencies",
+      "description": "Comprehensive oversight of IT third-party service providers creates complex monitoring obligations.",
+      "value": "85",
+      "valueSuffix": "%",
+      "label": "Of financial entities rely on critical third-party IT services"
     },
     "stat3": {
-      "title": "Operational Inefficiency",
-      "description": "Siloed tools and manual processes create operational inefficiencies, with teams spending excessive time reacting to incidents and collecting audit evidence.",
-      "value": "5,000",
+      "title": "Manual Resilience Testing",
+      "description": "Traditional approaches to IT resilience testing consume massive resources while failing to meet continuous monitoring requirements.",
+      "value": "8,000",
       "valueSuffix": "+",
-      "label": "Person-hours spent annually on manual compliance tasks"
+      "label": "Person-hours spent annually on IT risk assessments and testing"
     },
     "stat4": {
-      "title": "Limited Visibility",
-      "description": "Financial institutions struggle to see emerging risks across complex, interconnected systems, leading to decisions based on outdated information.",
-      "value": "67",
+      "title": "Fragmented IT Risk Management",
+      "description": "Financial institutions struggle with siloed IT risk data and disconnected teams, making it nearly impossible to maintain an integrated risk management framework or collaborate effectively on solutions.",
+      "value": "73",
       "valueSuffix": "%",
-      "label": "Of incidents occur due to lack of timely risk visibility"
+      "label": "Of IT incidents escalate due to delayed detection and poor cross-team coordination"
     }
   },
   "solution": {
     "headline1": "Introducing",
     "headline2": "Theodora",
-    "subheadline": "The unified platform for real-time operational risk intelligence and automated compliance assurance.",
+    "subheadline": "The unified platform for operational resilience, real-time IT risk intelligence, and automated regulatory assurance.",
     "feature1": {
-      "title": "Proactive Risk Prevention",
-      "description": "Shift from reactive firefighting to proactive risk prevention with real-time observability and predictive AI."
+      "title": "Proactive IT Risk Prevention",
+      "description": "Shift from reactive incident response to proactive IT risk management with real-time observability and AI-driven threat detection."
     },
     "feature2": {
-      "title": "Complete Visibility",
-      "description": "Gain end-to-end visibility across your entire operational landscape with our unified observability engine."
+      "title": "Enterprise-Ready Architecture",
+      "description": "Purpose-built to address comprehensive IT risk management, incident reporting, resilience testing, third-party monitoring, and cross-functional team collaboration."
     },
     "feature3": {
-      "title": "Automated Intelligence",
-      "description": "Dramatically reduce audit effort with automated evidence generation and continuous risk mitigation."
+      "title": "Unified Collaboration Hub",
+      "description": "Bring together IT operations, security teams, compliance officers, and business stakeholders on one platform to resolve issues faster with shared context and visibility."
     },
     "feature4": {
-      "title": "AI-Powered Risk Prevention",
-      "description": "Leverage machine learning for advanced anomaly detection and predictive pattern recognition to identify risks before they impact your business."
+      "title": "Automated Compliance Documentation",
+      "description": "Dramatically reduce regulatory burden with automated evidence generation, continuous control monitoring, and audit-ready reporting."
+    },
+    "feature5": {
+      "title": "AI-Powered Resilience",
+      "description": "Leverage machine learning for advanced anomaly detection, pattern recognition, and predictive analytics to identify IT vulnerabilities before they cause disruptions."
     },
     "cta": {
       "chat": "Let's Chat"
     },
     "mockup": {
       "tab1": "Dashboard",
-      "tab2": "Risks",
+      "tab2": "Risk Scores",
       "tab3": "Compliance",
-      "footer1": "Real-time dashboard",
-      "footer2": "Interactive demo"
+      "footer1": "Dashboard Preview",
+      "footer2": "Risk Scores, Compliance Status, IT Incidents"
     }
   },
   "pillars": {
-    "headline1": "How",
-    "headline2": "Theodora Works",
-    "subheadline": "Our platform is built on three powerful pillars that work together to provide comprehensive risk intelligence and compliance assurance.",
+    "headline1": "How Theodora",
+    "headline2": "Delivers Operational Resilience",
+    "subheadline": "Our platform provides three integrated capabilities that deliver comprehensive IT risk management and operational resilience—with built-in collaboration tools that unite cross-functional teams around shared goals.",
     "pillar1": {
       "title": "Unified Observability Engine",
-      "description": "Ingest and correlate logs, metrics, and traces across your entire IT landscape for complete end-to-end visibility.",
-      "feature1": "Comprehensive data collection and correlation",
-      "feature2": "End-to-end process tracing",
-      "feature3": "Real-time operational visibility",
-      "feature4": "Root cause diagnostics"
+      "description": "Complete IT Risk Management - Ingest and correlate logs, metrics, and traces across your entire IT infrastructure for complete visibility.",
+      "feature1": "Comprehensive IT asset inventory and classification",
+      "feature2": "End-to-end transaction and process tracing",
+      "feature3": "Real-time infrastructure monitoring",
+      "feature4": "Root cause analysis and diagnostics",
+      "feature5": "Third-party IT service provider monitoring",
+      "feature6": "Shared dashboards for cross-team visibility"
     },
     "pillar2": {
       "title": "AI-Powered Risk Intelligence",
-      "description": "Leverage machine learning for advanced anomaly detection and predictive pattern recognition to identify risks before they impact your business.",
-      "feature1": "Advanced anomaly detection",
-      "feature2": "Predictive risk patterns",
-      "feature3": "Intelligent alerting",
-      "feature4": "Risk scorecard and visualization"
+      "description": "Intelligent Incident Management - Leverage machine learning for advanced threat detection and predictive analytics to identify and prevent IT-related incidents.",
+      "feature1": "Automated anomaly detection and alerting",
+      "feature2": "Predictive risk pattern analysis",
+      "feature3": "Major incident classification and prioritization",
+      "feature4": "Real-time risk scoring and visualization",
+      "feature5": "Proactive vulnerability identification",
+      "feature6": "Collaborative incident response workflows"
     },
     "pillar3": {
       "title": "Automated Compliance Assurance",
-      "description": "Map real-time operational events to specific compliance controls and automatically generate evidence, drastically reducing audit effort.",
-      "feature1": "Code-native control mapping",
-      "feature2": "Automated evidence generation",
-      "feature3": "Continuous control monitoring",
-      "feature4": "Audit-ready reporting"
+      "description": "Continuous Resilience Testing & Reporting - Map operational events to regulatory requirements and automatically generate comprehensive compliance evidence and reports.",
+      "feature1": "Built-in regulatory control framework mapping",
+      "feature2": "Automated compliance evidence collection",
+      "feature3": "Continuous resilience testing documentation",
+      "feature4": "Pre-configured regulatory reporting templates",
+      "feature5": "Major incident reporting workflows",
+      "feature6": "Audit-ready compliance documentation"
     },
     "cta": {
       "chat": "Let's Chat"
     }
   },
   "benefits": {
-    "headline1": "Measurable",
-    "headline2": "Results",
-    "subheadline": "Theodora delivers tangible business outcomes for financial institutions, with proven ROI and risk reduction.",
+    "headline1": "Measurable Operational",
+    "headline2": "Resilience Outcomes",
+    "subheadline": "Theodora delivers tangible results for financial entities, with proven resilience improvements and compliance efficiency.",
     "stat1": {
-      "title": "Risk Reduction",
-      "description": "Reduce operational losses and prevent costly incidents"
+      "title": "Faster Incident Detection",
+      "description": "Identify and classify major IT incidents in real-time"
     },
     "stat2": {
-      "title": "Audit Time Saved",
-      "description": "Slash time spent on compliance evidence collection"
+      "title": "Compliance Automation",
+      "description": "Reduce manual effort for documentation and reporting"
     },
     "stat3": {
-      "title": "Compliance Rate",
-      "description": "Maintain continuous compliance with regulations"
+      "title": "Infrastructure Resilience",
+      "description": "Maintain operational continuity with proactive monitoring"
     },
     "stat4": {
-      "title": "Average ROI",
-      "description": "First-year return on investment for our customers"
+      "title": "Risk Reduction",
+      "description": "Prevent IT-related incidents through predictive intelligence"
+    },
+    "stat5": {
+      "title": "Faster Resolution",
+      "description": "Resolve incidents faster with cross-functional collaboration"
     },
     "realResults": {
-      "title": "Real Results for Financial Institutions & Organizations",
-      "description": "Theodora helps leading financial institutions around the world achieve significant improvements in operational resilience and compliance efficiency.",
+      "title": "Real Results for Financial Entities",
+      "description": "Theodora helps financial institutions achieve regulatory compliance while strengthening operational resilience.",
       "case1": {
-        "title": "Reduced Operational Losses",
-        "description": "A global bank can reduce operational losses by  up to 78% within the first year by detecting and preventing issues before they impacted customers."
+        "title": "Accelerated Compliance Readiness",
+        "description": "A bank achieved full regulatory compliance ahead of deadlines by implementing automated IT risk management, continuous monitoring, and integrated third-party oversight—reducing compliance preparation costs by 68%."
       },
       "case2": {
-        "title": "Slashed Audit Costs",
-        "description": "An insurance firm can reduce compliance costs by 63% through automated evidence generation and continuous compliance monitoring."
+        "title": "Streamlined Incident Reporting",
+        "description": "A payment services provider automated major incident classification and reporting workflows, reducing regulatory reporting time from 4 hours to 15 minutes while ensuring consistent compliance. By enabling real-time collaboration between their operations, security, and compliance teams on a unified platform, they reduced mean time to resolution by 55%."
       },
       "case3": {
-        "title": "Improved Strategic Decision Making",
-        "description": "A wealth management company may improve its operational decisions with real-time risk intelligence, preventing Millions of dollars in potential losses."
+        "title": "Enhanced Resilience Testing",
+        "description": "An investment firm transformed its resilience testing program with continuous automated testing and scenario analysis, reducing annual testing costs by 71% while exceeding regulatory requirements. Cross-functional visibility allowed business, IT, and risk teams to align on priorities and coordinate responses more effectively."
       }
     },
     "cta": {
       "chat": "Let's Chat"
+    }
+  },
+  "capabilities": {
+    "headline1": "Comprehensive",
+    "headline2": "Resilience Capabilities",
+    "capability1": {
+      "title": "IT Risk Management Framework",
+      "feature1": "Comprehensive risk identification and assessment",
+      "feature2": "IT asset classification and inventory",
+      "feature3": "Risk mitigation strategies and controls",
+      "feature4": "Continuous monitoring and reporting"
+    },
+    "capability2": {
+      "title": "Incident Management & Reporting",
+      "feature1": "Real-time major incident detection",
+      "feature2": "Automated regulatory notification workflows",
+      "feature3": "Root cause analysis and documentation",
+      "feature4": "Post-incident review automation",
+      "feature5": "Cross-functional incident response coordination",
+      "feature6": "Shared incident timeline and context for all stakeholders"
+    },
+    "capability3": {
+      "title": "Digital Resilience Testing",
+      "feature1": "Continuous vulnerability assessments",
+      "feature2": "Scenario-based resilience testing",
+      "feature3": "Third-party dependency testing",
+      "feature4": "Advanced threat-led penetration testing support"
+    },
+    "capability4": {
+      "title": "Third-Party Risk Management",
+      "feature1": "IT service provider monitoring",
+      "feature2": "Contractual compliance tracking",
+      "feature3": "Multi-vendor risk aggregation",
+      "feature4": "Exit strategy documentation"
+    },
+    "capability5": {
+      "title": "Information Sharing",
+      "feature1": "Threat intelligence integration",
+      "feature2": "Cross-entity incident reporting",
+      "feature3": "Regulatory authority connectivity",
+      "feature4": "Standardized data exchange formats"
+    },
+    "cta": {
+      "button": "Schedule Consultation"
     }
   },
   "trust": {
@@ -202,10 +264,10 @@
     "trustedBy": "Trusted by financial institutions worldwide"
   },
   "finalCta": {
-    "headline1": "Secure Your Operations.",
-    "headline2": "Automate Compliance.",
-    "subheadline": "Start a conversation today and discover how Theodora can transform your approach to operational risk and compliance.",
-    "button": "Let's Chat Today"
+    "headline1": "Achieve Compliance with",
+    "headline2": "Confidence",
+    "subheadline": "Theodora provides the comprehensive platform financial entities need to meet regulatory requirements while building genuine operational resilience.",
+    "button": "Let's Chat"
   },
   "footer": {
     "description": "Real-time operational risk intelligence and automated compliance assurance for financial institutions.",

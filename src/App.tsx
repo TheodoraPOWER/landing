@@ -7,6 +7,7 @@ import { ProblemSection } from './components/ProblemSection';
 import { SolutionSection } from './components/SolutionSection';
 import { PillarsSection } from './components/PillarsSection';
 import { BenefitsSection } from './components/BenefitsSection';
+import { CapabilitiesSection } from './components/CapabilitiesSection';
 import { TrustSection } from './components/TrustSection';
 import { FinalCTA } from './components/FinalCTA';
 import { ContactForm } from './components/ContactForm';
@@ -56,6 +57,7 @@ const LandingPageLayout: React.FC<{ onOpenContactForm: () => void }> = ({ onOpen
     <SolutionSection onOpenContactForm={onOpenContactForm} />
     <PillarsSection onOpenContactForm={onOpenContactForm} />
     <BenefitsSection onOpenContactForm={onOpenContactForm} />
+    <CapabilitiesSection onOpenContactForm={onOpenContactForm} />
     <TrustSection onOpenContactForm={onOpenContactForm} />
     <FinalCTA onOpenContactForm={onOpenContactForm} />
   </>

@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useMemo } from 'react';
-import { TrendingDown, Clock, ShieldCheck, LineChart } from 'lucide-react';
+import { TrendingDown, Clock, ShieldCheck, LineChart, Zap } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { useTranslation } from 'react-i18next';
 
@@ -16,18 +16,20 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
   const isVisible = useIntersectionObserver(sectionRef, { threshold: 0.1 });
   
   const [counters, setCounters] = useState({
+    incidentDetection: 0,
+    complianceAutomation: 0,
+    infrastructureResilience: 0,
     riskReduction: 0,
-    auditTime: 0,
-    compliance: 0,
-    roi: 0
+    fasterResolution: 0
   });
-  
+
   // Memoize the targetValues object
   const targetValues = useMemo(() => ({
-    riskReduction: 78,
-    auditTime: 85,
-    compliance: 99,
-    roi: 310
+    incidentDetection: 82,
+    complianceAutomation: 90,
+    infrastructureResilience: 99.7,
+    riskReduction: 75,
+    fasterResolution: 60
   }), []); // Empty dependency array means it's created only once
   
   useEffect(() => {
@@ -45,12 +47,13 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
       const duration = 2000; // 2 seconds
       const steps = 30;
       const increment = {
+        incidentDetection: targetValues.incidentDetection / steps,
+        complianceAutomation: targetValues.complianceAutomation / steps,
+        infrastructureResilience: targetValues.infrastructureResilience / steps,
         riskReduction: targetValues.riskReduction / steps,
-        auditTime: targetValues.auditTime / steps,
-        compliance: targetValues.compliance / steps,
-        roi: targetValues.roi / steps
+        fasterResolution: targetValues.fasterResolution / steps
       };
-      
+
       let step = 0;
       const timer = setInterval(() => {
         if (step >= steps) {
@@ -58,14 +61,15 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
           clearInterval(timer);
           return;
         }
-        
+
         setCounters(prev => ({
+          incidentDetection: Math.min(Math.round(prev.incidentDetection + increment.incidentDetection), targetValues.incidentDetection),
+          complianceAutomation: Math.min(Math.round(prev.complianceAutomation + increment.complianceAutomation), targetValues.complianceAutomation),
+          infrastructureResilience: Math.min(Number((prev.infrastructureResilience + increment.infrastructureResilience).toFixed(1)), targetValues.infrastructureResilience),
           riskReduction: Math.min(Math.round(prev.riskReduction + increment.riskReduction), targetValues.riskReduction),
-          auditTime: Math.min(Math.round(prev.auditTime + increment.auditTime), targetValues.auditTime),
-          compliance: Math.min(Math.round(prev.compliance + increment.compliance), targetValues.compliance),
-          roi: Math.min(Math.round(prev.roi + increment.roi), targetValues.roi)
+          fasterResolution: Math.min(Math.round(prev.fasterResolution + increment.fasterResolution), targetValues.fasterResolution)
         }));
-        
+
         step++;
       }, duration / steps);
       
@@ -92,10 +96,52 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
           </p>
         </div>
         
-        <div 
+        <div
           ref={statsRef}
-          className="fade-in grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          className="fade-in grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6"
         >
+          <div className="bg-bg-secondary p-8 rounded-lg text-center">
+            <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
+              <Zap className="h-8 w-8" />
+            </div>
+            <div className="text-5xl font-bold mb-2 flex items-end justify-center">
+              <span>{counters.incidentDetection}</span>
+              <span className="text-accent text-3xl">%</span>
+            </div>
+            <h3 className="text-xl font-bold mb-2">{t('benefits.stat1.title')}</h3>
+            <p className="text-secondary text-sm">
+              {t('benefits.stat1.description')}
+            </p>
+          </div>
+
+          <div className="bg-bg-secondary p-8 rounded-lg text-center">
+            <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
+              <Clock className="h-8 w-8" />
+            </div>
+            <div className="text-5xl font-bold mb-2 flex items-end justify-center">
+              <span>{counters.complianceAutomation}</span>
+              <span className="text-accent text-3xl">%</span>
+            </div>
+            <h3 className="text-xl font-bold mb-2">{t('benefits.stat2.title')}</h3>
+            <p className="text-secondary text-sm">
+              {t('benefits.stat2.description')}
+            </p>
+          </div>
+
+          <div className="bg-bg-secondary p-8 rounded-lg text-center">
+            <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
+              <ShieldCheck className="h-8 w-8" />
+            </div>
+            <div className="text-5xl font-bold mb-2 flex items-end justify-center">
+              <span>{counters.infrastructureResilience}</span>
+              <span className="text-accent text-3xl">%</span>
+            </div>
+            <h3 className="text-xl font-bold mb-2">{t('benefits.stat3.title')}</h3>
+            <p className="text-secondary text-sm">
+              {t('benefits.stat3.description')}
+            </p>
+          </div>
+
           <div className="bg-bg-secondary p-8 rounded-lg text-center">
             <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
               <TrendingDown className="h-8 w-8" />
@@ -104,51 +150,23 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenContactF
               <span>{counters.riskReduction}</span>
               <span className="text-accent text-3xl">%</span>
             </div>
-            <h3 className="text-xl font-bold mb-2">{t('benefits.stat1.title')}</h3>
+            <h3 className="text-xl font-bold mb-2">{t('benefits.stat4.title')}</h3>
             <p className="text-secondary text-sm">
-              {t('benefits.stat1.description')}
+              {t('benefits.stat4.description')}
             </p>
           </div>
-          
-          <div className="bg-bg-secondary p-8 rounded-lg text-center">
-            <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
-              <Clock className="h-8 w-8" />
-            </div>
-            <div className="text-5xl font-bold mb-2 flex items-end justify-center">
-              <span>{counters.auditTime}</span>
-              <span className="text-accent text-3xl">%</span>
-            </div>
-            <h3 className="text-xl font-bold mb-2">{t('benefits.stat2.title')}</h3>
-            <p className="text-secondary text-sm">
-              {t('benefits.stat2.description')}
-            </p>
-          </div>
-          
-          <div className="bg-bg-secondary p-8 rounded-lg text-center">
-            <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
-              <ShieldCheck className="h-8 w-8" />
-            </div>
-            <div className="text-5xl font-bold mb-2 flex items-end justify-center">
-              <span>{counters.compliance}</span>
-              <span className="text-accent text-3xl">%</span>
-            </div>
-            <h3 className="text-xl font-bold mb-2">{t('benefits.stat3.title')}</h3>
-            <p className="text-secondary text-sm">
-              {t('benefits.stat3.description')}
-            </p>
-          </div>
-          
+
           <div className="bg-bg-secondary p-8 rounded-lg text-center">
             <div className="inline-flex p-4 rounded-full bg-accent/10 text-accent mb-6">
               <LineChart className="h-8 w-8" />
             </div>
             <div className="text-5xl font-bold mb-2 flex items-end justify-center">
-              <span>{counters.roi}</span>
+              <span>{counters.fasterResolution}</span>
               <span className="text-accent text-3xl">%</span>
             </div>
-            <h3 className="text-xl font-bold mb-2">{t('benefits.stat4.title')}</h3>
+            <h3 className="text-xl font-bold mb-2">{t('benefits.stat5.title')}</h3>
             <p className="text-secondary text-sm">
-              {t('benefits.stat4.description')}
+              {t('benefits.stat5.description')}
             </p>
           </div>
         </div>

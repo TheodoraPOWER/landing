@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Shield, TrendingUp, EyeIcon } from 'lucide-react';
+import { Shield, TrendingUp, EyeIcon, Users } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { useTranslation } from 'react-i18next';
 
@@ -71,7 +71,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenContactForm }) =
           </div>
         </div>
         
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="p-6 bg-white border border-border rounded-lg shadow-sm transition-all hover:shadow-md fade-in">
             <div className="flex items-center gap-4 mb-4">
               <div className="p-3 rounded-full bg-bg-secondary text-accent">
@@ -81,7 +81,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenContactForm }) =
             </div>
             <p className="text-secondary">{t('hero.feature1.description')}</p>
           </div>
-          
+
           <div className="p-6 bg-white border border-border rounded-lg shadow-sm transition-all hover:shadow-md fade-in">
             <div className="flex items-center gap-4 mb-4">
               <div className="p-3 rounded-full bg-bg-secondary text-accent">
@@ -91,15 +91,25 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenContactForm }) =
             </div>
             <p className="text-secondary">{t('hero.feature2.description')}</p>
           </div>
-          
+
+          <div className="p-6 bg-white border border-border rounded-lg shadow-sm transition-all hover:shadow-md fade-in">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 rounded-full bg-bg-secondary text-accent">
+                <Users className="h-6 w-6" />
+              </div>
+              <h3 className="text-xl font-bold">{t('hero.feature3.title')}</h3>
+            </div>
+            <p className="text-secondary">{t('hero.feature3.description')}</p>
+          </div>
+
           <div className="p-6 bg-white border border-border rounded-lg shadow-sm transition-all hover:shadow-md fade-in">
             <div className="flex items-center gap-4 mb-4">
               <div className="p-3 rounded-full bg-bg-secondary text-accent">
                 <Shield className="h-6 w-6" />
               </div>
-              <h3 className="text-xl font-bold">{t('hero.feature3.title')}</h3>
+              <h3 className="text-xl font-bold">{t('hero.feature4.title')}</h3>
             </div>
-            <p className="text-secondary">{t('hero.feature3.description')}</p>
+            <p className="text-secondary">{t('hero.feature4.description')}</p>
           </div>
         </div>
       </div>

@@ -38,7 +38,9 @@ export const PillarsSection: React.FC<PillarsSectionProps> = ({ onOpenContactFor
         "pillars.pillar1.feature1",
         "pillars.pillar1.feature2",
         "pillars.pillar1.feature3",
-        "pillars.pillar1.feature4"
+        "pillars.pillar1.feature4",
+        "pillars.pillar1.feature5",
+        "pillars.pillar1.feature6"
       ]
     },
     {
@@ -50,7 +52,9 @@ export const PillarsSection: React.FC<PillarsSectionProps> = ({ onOpenContactFor
         "pillars.pillar2.feature1",
         "pillars.pillar2.feature2",
         "pillars.pillar2.feature3",
-        "pillars.pillar2.feature4"
+        "pillars.pillar2.feature4",
+        "pillars.pillar2.feature5",
+        "pillars.pillar2.feature6"
       ]
     },
     {
@@ -62,7 +66,9 @@ export const PillarsSection: React.FC<PillarsSectionProps> = ({ onOpenContactFor
         "pillars.pillar3.feature1",
         "pillars.pillar3.feature2",
         "pillars.pillar3.feature3",
-        "pillars.pillar3.feature4"
+        "pillars.pillar3.feature4",
+        "pillars.pillar3.feature5",
+        "pillars.pillar3.feature6"
       ]
     }
   ];
@@ -122,17 +128,17 @@ export const PillarsSection: React.FC<PillarsSectionProps> = ({ onOpenContactFor
                   `}>
                     {t(pillar.descriptionKey)}
                   </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {pillar.featureKeys.map((featureKey, i) => (
-                      <div 
-                        key={i} 
+                      <div
+                        key={i}
                         className={`
-                          flex items-center gap-3 p-3 rounded
+                          flex items-start gap-2 p-3 rounded
                           ${index % 2 === 0 ? 'bg-bg-secondary' : 'bg-white/10'}
                         `}
                       >
                         <div className={`
-                          h-2 w-2 rounded-full shrink-0
+                          h-2 w-2 rounded-full shrink-0 mt-1.5
                           ${index % 2 === 0 ? 'bg-accent' : 'bg-accent'}
                         `}></div>
                         <span className="text-sm font-medium">{t(featureKey)}</span>
